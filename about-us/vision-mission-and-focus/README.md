@@ -1,3 +1,8 @@
+---
+cover: https://live.staticflickr.com/65535/51430929622_684410267a_k.jpg
+coverY: 0
+---
+
 # 🚀 About
 
 I’m Bowen Li and my code name is **Aisuko**. It looks great.
