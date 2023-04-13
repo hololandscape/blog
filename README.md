@@ -1,9 +1,28 @@
 ---
-cover: >-
-  https://images.unsplash.com/photo-1528605248644-14dd04022da1?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxMHx8dGVhbSUyMG9mJTIwcGVvcGxlfGVufDB8fHx8MTY2MDMxNzQzNg&ixlib=rb-1.2.1&q=80
+cover: https://live.staticflickr.com/65535/51430929622_684410267a_k.jpg
 coverY: 0
 ---
 
-# 👋 Welcome!
+# 🚀 About
 
-Welcome to my personal blog! My name is Aisuko and I am excited to share my thoughts, experiences, and passions with you. This blog is a platform for me to express myself and connect with like-minded individuals. I hope to inspire, inform, and entertain you with my writing. Whether you are here to learn something new, share your thoughts, or simply enjoy some good content, I am grateful to have you here. My goal is to create a community where we can engage in meaningful conversations and learn from each other. So, thank you for visiting my blog and I look forward to getting to know you better!
+I’m Bowen Li and my code name is **Aisuko**. It looks great.
+
+I’d like to do something really interesting, like explore the GNU Hurd project. The project same age as me, it’s really cool.
+
+And I’d like to explore the structure of the whole world. So I’m not interested in the server, but the infrastructures need to update here.
+
+I’d like to research more about the [microkernel](https://dev.to/aisuko/the-concepts-of-microkernel-3i08) because the HA or distribution servers work on a monolithic kernel and are not stable(It’s a joke). And their lots of things that need to learn and research.
+
+And lots of basic automatic tools there must have I guess.
+
+I’m a Sky photographer on [Flickr](https://flickr.com/people/aisukoli/) and all the photos are free to download.
+
+```html
+<iframe src="https://github.com/sponsors/Aisuko/button" title="Sponsor Aisuko" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+```
+
+![fsf member](https://hololandscape.github.io/aisuko/assets/images/5569169.png)
+
+Maintainer, Free Software Foundation, [CNCF](https://community.cncf.io/u/mbkrge/#/about), [Savannah](https://savannah.nongnu.org/users/aisuko)\
+GPG Key: C52F AB76 4ECD 339F F038 1836 1F47 7E40 A672 B460\
+[fsf.org](https://fsf.org/) | [gnu.org](https://gnu.org/) | [meshery.io](https://meshery.io/)
