@@ -17,10 +17,6 @@ And lots of basic automatic tools there must have I guess.
 
 I’m a Sky photographer on [Flickr](https://flickr.com/people/aisukoli/) and all the photos are free to download.
 
-```html
-<iframe src="https://github.com/sponsors/Aisuko/button" title="Sponsor Aisuko" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
-```
-
 ![fsf member](https://hololandscape.github.io/aisuko/assets/images/5569169.png)
 
 Maintainer, Free Software Foundation, [CNCF](https://community.cncf.io/u/mbkrge/#/about), [Savannah](https://savannah.nongnu.org/users/aisuko)\
