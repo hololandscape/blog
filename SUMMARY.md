@@ -35,3 +35,8 @@
 ## 🧘♀ Data Structure
 
 * [🖍 Array](data-structure/array.md)
+
+## 🎹 Music
+
+* [Paul Mauriat](music/paul-mauriat.md)
+* [Boys Be Ambitious](music/boys-be-ambitious.md)
