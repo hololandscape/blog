@@ -17,8 +17,8 @@ And lots of basic automatic tools there must have I guess.
 
 I’m a Sky photographer on [Flickr](https://flickr.com/people/aisukoli/) and all the photos are free to download.
 
-![fsf member](https://hololandscape.github.io/aisuko/assets/images/5569169.png)
-
 Maintainer, Free Software Foundation, [CNCF](https://community.cncf.io/u/mbkrge/#/about), [Savannah](https://savannah.nongnu.org/users/aisuko)\
 GPG Key: C52F AB76 4ECD 339F F038 1836 1F47 7E40 A672 B460\
 [fsf.org](https://fsf.org/) | [gnu.org](https://gnu.org/) | [meshery.io](https://meshery.io/)
+
+![fsf member](https://hololandscape.github.io/aisuko/assets/images/5569169.png)
