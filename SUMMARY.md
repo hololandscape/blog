@@ -1,6 +1,6 @@
 # Table of contents
 
-## About me
+## Home
 
 * [🚀 About](README.md)
 
@@ -43,5 +43,5 @@
 
 ## 🎹 Music
 
-* [Paul Mauriat](music/paul-mauriat.md)
-* [Boys Be Ambitious](music/boys-be-ambitious.md)
+* [🎹 Paul Mauriat](music/paul-mauriat.md)
+* [🎻 Taro Hakase](music/taro-hakase.md)
