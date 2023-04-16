@@ -34,7 +34,8 @@
 
 ## 👩💻 Freesoftware
 
-* [🍉 The GNU Hurd](freesoftware/the-gnu-hurd.md)
+* [🍉 The GNU Hurd](freesoftware/the-gnu-hurd/README.md)
+  * [Tutorial for starting](freesoftware/the-gnu-hurd/tutorial-for-starting.md)
 
 ## 🧘♀ Data Structure
 
