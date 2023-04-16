@@ -26,7 +26,11 @@
     * [Shortest Paths](courses-collection/mit-algorithm-courses/mit-6.006/shortest-paths.md)
     * [Dynamic Programming](courses-collection/mit-algorithm-courses/mit-6.006/dynamic-programming.md)
     * [Advanced](courses-collection/mit-algorithm-courses/mit-6.006/advanced.md)
-  * [3 MIT 6.046J](courses-collection/mit-algorithm-courses/mit-6.046j.md)
+  * [3 MIT 6.046J](courses-collection/mit-algorithm-courses/mit-6.046j/README.md)
+    * [Divide and conquer](courses-collection/mit-algorithm-courses/mit-6.046j/divide-and-conquer.md)
+    * [Dynamic programming](courses-collection/mit-algorithm-courses/mit-6.046j/dynamic-programming.md)
+    * [Greedy algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/greedy-algorithms.md)
+    * [Graph algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/graph-algorithms.md)
 
 ## 👩💻 Freesoftware
 
