@@ -39,7 +39,11 @@
 
 ## 🧘♀ Data Structure
 
-* [🖍 Array](data-structure/array.md)
+* [🐭 Data structures](data-structure/data-structures/README.md)
+  * [🪄 Linear Data Structures](data-structure/data-structures/linear-data-structures.md)
+  * [🌴 Trees](data-structure/data-structures/trees.md)
+  * [🎧 Hash-based Structures](data-structure/data-structures/hash-based-structures.md)
+  * [📊 Graphs](data-structure/data-structures/graphs.md)
 
 ## 🎹 Music
 
