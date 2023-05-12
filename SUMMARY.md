@@ -45,6 +45,19 @@
   * [🎧 Hash-based Structures](data-structure/data-structures/hash-based-structures.md)
   * [📊 Graphs](data-structure/data-structures/graphs.md)
 
+## 🛤 AI techniques
+
+* [🎁 LoRA](ai-techniques/lora/README.md)
+  * [ℹ Matrix Factorization](ai-techniques/lora/matrix-factorization.md)
+  * [📀 SVD](ai-techniques/lora/svd/README.md)
+    * [✝ Distillation of SVD](ai-techniques/lora/svd/distillation-of-svd.md)
+    * [🦎 Eigenvalues of a covariance matrix](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/README.md)
+      * [🧧 Eigenvalues](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/eigenvalues.md)
+      * [🏪 Covariance Matrix](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/covariance-matrix.md)
+  * [🛫 Checkpoint](ai-techniques/lora/checkpoint.md)
+* [🦙 LLMs](ai-techniques/llms.md)
+* [🎨 PEFT](ai-techniques/peft.md)
+
 ## 🎹 Music
 
 * [🎹 Paul Mauriat](music/paul-mauriat.md)
