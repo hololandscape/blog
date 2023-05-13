@@ -18,10 +18,12 @@ The GNU Hurd Homepage
 
 I am a maintainer for the Hurd project. Let's break down the steps of how to contribute to this project.
 
-**Resources**
+**Resources for connection with the GNU Hurd project**
 
 * IRC
 * The Hurd mailing lists
 * The Hurd wiki
 * Bug reporting
+
+But these tools are a little bit hard to use for me.
 
