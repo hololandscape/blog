@@ -48,6 +48,7 @@
 
 ## 🛤 AI techniques
 
+* [🦌 DeepSpeed](ai-techniques/deepspeed.md)
 * [🎁 LoRA](ai-techniques/lora/README.md)
   * [ℹ Matrix Factorization](ai-techniques/lora/matrix-factorization.md)
   * [📀 SVD](ai-techniques/lora/svd/README.md)

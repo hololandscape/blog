@@ -9,3 +9,7 @@ description: Large language model
 * [Vicuna](https://vicuna.lmsys.org/)
 * [ChatLlama](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)
 * [Koala](https://bair.berkeley.edu/blog/2023/04/03/koala/)
+
+### More open-source models on Hugging Face
+
+[https://github.com/huggingface/transformers#model-architectures](https://github.com/huggingface/transformers#model-architectures)
