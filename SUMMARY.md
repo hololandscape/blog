@@ -37,6 +37,7 @@
 * [🍉 The GNU Hurd](freesoftware/the-gnu-hurd/README.md)
   * [Tutorial for starting](freesoftware/the-gnu-hurd/tutorial-for-starting.md)
   * [Continue Working for the Hurd](freesoftware/the-gnu-hurd/continue-working-for-the-hurd.md)
+  * [🛃 Rust FFI](freesoftware/the-gnu-hurd/rust-ffi.md)
 
 ## 🧘♀ Data Structure
 
