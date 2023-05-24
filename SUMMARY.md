@@ -35,8 +35,10 @@
 ## 👩💻 Freesoftware
 
 * [🍉 The GNU Hurd](freesoftware/the-gnu-hurd/README.md)
-  * [Tutorial for starting](freesoftware/the-gnu-hurd/tutorial-for-starting.md)
-  * [Continue Working for the Hurd](freesoftware/the-gnu-hurd/continue-working-for-the-hurd.md)
+  * [😄 The files extension](freesoftware/the-gnu-hurd/the-files-extension.md)
+  * [📽 Tutorial for starting](freesoftware/the-gnu-hurd/tutorial-for-starting.md)
+  * [🚚 Continue Working for the Hurd](freesoftware/the-gnu-hurd/continue-working-for-the-hurd.md)
+  * [🚴♂ Golang Bindings](freesoftware/the-gnu-hurd/golang-bindings.md)
   * [🛃 Rust FFI](freesoftware/the-gnu-hurd/rust-ffi.md)
 
 ## 🧘♀ Data Structure
@@ -58,7 +60,8 @@
       * [🧧 Eigenvalues](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/eigenvalues.md)
       * [🏪 Covariance Matrix](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/covariance-matrix.md)
   * [🛫 Checkpoint](ai-techniques/lora/checkpoint.md)
-* [🦙 LLMs](ai-techniques/llms.md)
+* [🦙 LLMs](ai-techniques/llms/README.md)
+  * [GGML](ai-techniques/llms/ggml.md)
 * [🎨 PEFT](ai-techniques/peft.md)
 
 ## 🎹 Music
