@@ -60,8 +60,8 @@
       * [🧧 Eigenvalues](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/eigenvalues.md)
       * [🏪 Covariance Matrix](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/covariance-matrix.md)
   * [🛫 Checkpoint](ai-techniques/lora/checkpoint.md)
-* [🦙 LLMs](ai-techniques/llms/README.md)
-  * [GGML](ai-techniques/llms/ggml.md)
+* [🦙 Large Language Model](ai-techniques/large-language-model/README.md)
+  * [GGML](ai-techniques/large-language-model/ggml.md)
 * [🎨 PEFT](ai-techniques/peft.md)
 
 ## 🎹 Music
