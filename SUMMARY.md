@@ -61,7 +61,7 @@
       * [🏪 Covariance Matrix](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/covariance-matrix.md)
   * [🛫 Checkpoint](ai-techniques/lora/checkpoint.md)
 * [🦙 Large Language Model](ai-techniques/large-language-model/README.md)
-  * [GGML](ai-techniques/large-language-model/ggml.md)
+  * [🍉 GGML](ai-techniques/large-language-model/ggml.md)
 * [🎨 PEFT](ai-techniques/peft.md)
 
 ## 🎹 Music
