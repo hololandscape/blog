@@ -38,7 +38,9 @@
   * [😄 The files extension](freesoftware/the-gnu-hurd/the-files-extension.md)
   * [📽 Tutorial for starting](freesoftware/the-gnu-hurd/tutorial-for-starting.md)
   * [🚚 Continue Working for the Hurd](freesoftware/the-gnu-hurd/continue-working-for-the-hurd.md)
-  * [🚴♂ Golang Bindings](freesoftware/the-gnu-hurd/golang-bindings.md)
+  * [🚴♂ cgo](freesoftware/the-gnu-hurd/cgo/README.md)
+    * [Statically VS Dynamically binding](freesoftware/the-gnu-hurd/cgo/statically-vs-dynamically-binding.md)
+    * [Different ways in binding](freesoftware/the-gnu-hurd/cgo/different-ways-in-binding.md)
   * [🛃 Rust FFI](freesoftware/the-gnu-hurd/rust-ffi.md)
 
 ## 🧘♀ Data Structure
