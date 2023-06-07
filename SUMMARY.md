@@ -54,6 +54,13 @@
 ## 🛤 AI techniques
 
 * [🦌 DeepSpeed](ai-techniques/deepspeed.md)
+* [🤟 lang-chain](ai-techniques/lang-chain/README.md)
+  * [1.Introduction](ai-techniques/lang-chain/1.Introduction.md)
+  * [2.Concepts](ai-techniques/lang-chain/2.Concepts.md)
+  * [3.Models](ai-techniques/lang-chain/3.Models.md)
+  * [4.Prompts](ai-techniques/lang-chain/4.Prompts.md)
+  * [5.Memory](ai-techniques/lang-chain/5.Memory.md)
+  * [6.Indexes](ai-techniques/lang-chain/6.Indexes.md)
 * [🎁 LoRA](ai-techniques/lora/README.md)
   * [ℹ Matrix Factorization](ai-techniques/lora/matrix-factorization.md)
   * [📀 SVD](ai-techniques/lora/svd/README.md)
