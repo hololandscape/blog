@@ -54,12 +54,12 @@
 ## 🛤 AI techniques
 
 * [🦌 DeepSpeed](ai-techniques/deepspeed.md)
-* [🤟 lang-chain](ai-techniques/lang-chain/README.md)
-  * [Concepts](ai-techniques/lang-chain/concepts.md)
-  * [Models](ai-techniques/lang-chain/models.md)
-  * [Prompts](ai-techniques/lang-chain/prompts.md)
-  * [Memory](ai-techniques/lang-chain/memory.md)
-  * [Indexes](ai-techniques/lang-chain/indexes.md)
+* [🤟 LangChain](ai-techniques/langchain/README.md)
+  * [Concepts](ai-techniques/langchain/concepts.md)
+  * [Models](ai-techniques/langchain/models.md)
+  * [Prompts](ai-techniques/langchain/prompts.md)
+  * [Memory](ai-techniques/langchain/memory.md)
+  * [Indexes](ai-techniques/langchain/indexes.md)
 * [🎁 LoRA](ai-techniques/lora/README.md)
   * [ℹ Matrix Factorization](ai-techniques/lora/matrix-factorization.md)
   * [📀 SVD](ai-techniques/lora/svd/README.md)

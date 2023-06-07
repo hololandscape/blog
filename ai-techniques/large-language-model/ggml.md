@@ -8,7 +8,7 @@ description: How to use quantization to democratize access to LLMs?
 
 GGML is a C library for ML - the "GG" refers to the author ([Georgi Gerganov](https://ggerganov.com/)). It defines:
 
-* Low-level ML primitives like the tensor type&#x20;
+* Low-level ML primitives like the tensor type
 * The binary format for distributing LLMs
 
 It makes use of technique <mark style="color:red;">**quantization that allows for LLMs to run on consumer hardware.**</mark>
@@ -21,7 +21,7 @@ The <mark style="color:purple;">**first piece**</mark> of information present in
 
 * The model's Hyperparameters
 * Vocabulary
-* Weights&#x20;
+* Weights
 
 ### GGML Versions
 
@@ -49,7 +49,7 @@ Although hyperparameters are different across models, the most models have:
 
 <mark style="color:blue;">**As the name implies**</mark>, a model's vocabulary comprises components that are used by the model to generate language (text).
 
-The <mark style="color:blue;">**vocabulary of a LLM**</mark> <mark style="color:red;">**consists**</mark> of "<mark style="color:red;">**tokens**</mark>". A token <mark style="color:green;">**can be an entire word**</mark>, but oftentimes they are <mark style="color:orange;">**word**</mark><mark style="color:orange;">** **</mark>_<mark style="color:orange;">**fragments**</mark>_<mark style="color:orange;">**.**</mark>** **<mark style="color:blue;">**LLM use tokens to express a large number of words form a relatively smaller number of components.**</mark>
+The <mark style="color:blue;">**vocabulary of a LLM**</mark> <mark style="color:red;">**consists**</mark> of "<mark style="color:red;">**tokens**</mark>". A token <mark style="color:green;">**can be an entire word**</mark>, but oftentimes they are <mark style="color:orange;">**word**</mark><mark style="color:orange;">\*\*</mark> <mark style="color:orange;"></mark>_<mark style="color:orange;">**fragments**</mark>_. \*\*<mark style="color:blue;">**LLM use tokens to express a large number of words form a relatively smaller number of components.**</mark>
 
 For example, Consider a vocabulary with the following tokens: `whi`, `ch` `le`, `who`, and `a`; This vocabulary can be used to create the English words. With the vocabulary like this, the model-creator can tune the models' behavior and performance.
 
@@ -61,7 +61,7 @@ LLMs can be improved by increasing the number of _weights_ in the model.<mark st
 
 These numbers above refer to the total number of weights in the model. <mark style="color:purple;">**Weights are grouped together in sets called "layers"**</mark>, and <mark style="color:red;">**within a layer**</mark> <mark style="color:purple;">**weights are grouped together in structures**</mark> called "<mark style="color:purple;">**tensors**</mark>".
 
-So, for instance, both StableLM 3B and StableLM 7B use layers that comprise the same tensors, but StableLM 3B has relatively _<mark style="color:red;">**fewer**</mark>_<mark style="color:red;">** **</mark><mark style="color:red;">**layers**</mark> when compared to StableLM 7B.
+So, for instance, both StableLM 3B and StableLM 7B use layers that comprise the same tensors, but StableLM 3B has relatively _<mark style="color:red;">**fewer**</mark>_<mark style="color:red;">\*\* \*\*</mark><mark style="color:red;">**layers**</mark> when compared to StableLM 7B.
 
 #### Tensor
 
@@ -78,8 +78,6 @@ In GGML, a tensor consists of a number of components, including:
 \`{"tensor\_a0", \[2, 2, 1, 1], \[1.0, 0.0, 0.1, 1.0]}\` Note that the 4-element list of dimensions uses `1` as a placeholder for unused dimensions - this is because the product of the dimensions should not equal zero.
 
 The <mark style="color:orange;">**weights in a GGML file are encoded as a list of layers**</mark>, the <mark style="color:blue;">**length**</mark> of which is typically specified <mark style="color:blue;">**in the model's hyperparameter**</mark>**s**; each layer is encoded as an ordered set of tensors.
-
-
 
 ## Features
 
