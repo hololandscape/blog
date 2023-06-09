@@ -21,7 +21,7 @@ There are several reasons:
 
 #### Features
 
-* Optimizing via <mark style="color:green;">**ARM NEON**</mark>, <mark style="color:green;">**Accelerate**</mark>, and [<mark style="color:green;">**Metal**</mark>](metal.md) <mark style="color:green;">**frameworks**</mark>
+* Optimizing via[ <mark style="color:green;">**ARM NEON**</mark>](arm-neon.md), <mark style="color:green;">**Accelerate**</mark>, and [<mark style="color:green;">**Metal**</mark>](metal.md) <mark style="color:green;">**frameworks**</mark>
 * [<mark style="color:green;">**AVX, AVX2**</mark> and <mark style="color:green;">**AVX512**</mark> support for x86 architectures](ggml.md#intrinsic-avx-avx2-on-x86)
 * [Mixed F16/<mark style="background-color:green;">**F32 precision**</mark>](type-for-nnc.md)
 * 4,5,8 bit [<mark style="color:green;">**integer quantization**</mark>](ggml.md#integer-quantization) support

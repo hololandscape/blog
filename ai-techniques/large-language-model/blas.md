@@ -35,7 +35,7 @@ So using them can bring substantial performance benefits.
 
 ## Reference
 
-https://icl.utk.edu/files/publications/2017/icl-utk-1032-2017.pdf https://en.wikipedia.org/wiki/Basic\_Linear\_Algebra\_Subprograms
+{% embed url="https://en.wikipedia.org/wiki/Basic_Linear_Algebra_Subprograms" %}
 
 
 

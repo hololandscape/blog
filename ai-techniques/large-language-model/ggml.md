@@ -103,8 +103,9 @@ The x86 architectures are a family of processors that use a 32-bit or 64-bit ins
 
 ## Reference
 
-* Basics of Quantization in Machine Learning (ML) for Beginners. https://iq.opengenus.org/basics-of-quantization-in-ml/
-* What Is int8 Quantization and Why Is It Popular for Deep Neural .... https://www.mathworks.com/company/newsletters/articles/what-is-int8-quantization-and-why-is-it-popular-for-deep-neural-networks.html
-* \[2004.09602] Integer Quantization for Deep Learning Inference .... https://arxiv.org/abs/2004.09602.
+* [https://iq.opengenus.org/basics-of-quantization-in-ml/](https://iq.opengenus.org/basics-of-quantization-in-ml/)
+* [https://www.mathworks.com/company/newsletters/articles/what-is-int8-quantization-and-why-is-it-popular-for-deep-neural-networks.html](https://www.mathworks.com/company/newsletters/articles/what-is-int8-quantization-and-why-is-it-popular-for-deep-neural-networks.html)
+* [https://arxiv.org/abs/2004.09602](https://arxiv.org/abs/2004.09602)
+* [https://iq.opengenus.org/basics-of-quantization-in-ml/](https://iq.opengenus.org/basics-of-quantization-in-ml/)
 * [rustformers/llm](https://github.com/rustformers/llm)
 * [ggerganov/ggml](https://github.com/ggerganov/ggml)

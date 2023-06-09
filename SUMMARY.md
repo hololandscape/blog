@@ -69,6 +69,8 @@
       * [🏪 Covariance Matrix](ai-techniques/lora/svd/eigenvalues-of-a-covariance-matrix/covariance-matrix.md)
   * [🛫 Checkpoint](ai-techniques/lora/checkpoint.md)
 * [🦙 Large Language Model](ai-techniques/large-language-model/README.md)
+  * [☺ SMID](ai-techniques/large-language-model/smid.md)
+  * [👨🌾 ARM NEON](ai-techniques/large-language-model/arm-neon.md)
   * [🍊 Metal](ai-techniques/large-language-model/metal.md)
   * [🏁 BLAS](ai-techniques/large-language-model/blas.md)
   * [🍉 ggml](ai-techniques/large-language-model/ggml.md)

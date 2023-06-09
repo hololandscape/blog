@@ -26,4 +26,4 @@ The MPS framework optimizes compute performance with kernels that are fine-tuned
 
 ## Reference
 
-[https://developer.apple.com/documentation/metal/performing\_calculations\_on\_a\_gpu](https://developer.apple.com/documentation/metal/performing\_calculations\_on\_a\_gpu)
+{% embed url="https://developer.apple.com/documentation/metal/performing_calculations_on_a_gpu" %}
