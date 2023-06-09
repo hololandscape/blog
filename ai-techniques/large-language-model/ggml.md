@@ -2,7 +2,7 @@
 description: How to use quantization to democratize access to LLMs?
 ---
 
-# 🍉 GGML
+# 🍉 ggml
 
 ## Overview
 
@@ -99,7 +99,7 @@ L-BFGS stands for **limited-memory Broyden–Fletcher–Goldfarb–Shanno** and 
 
 ### Intrinsic AVX/AVX2 on x86
 
-The x86 architectures are a family of processors that use a 32-bit or 64-bit instruction set. AVX and AVX2 are extensions of the x86 instruction set that enable **advanced vector extensions** for parallel processing of data[²](https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/intrinsics-for-avx2.html). Intrinsics are functions that provide access to these extensions without writing assembly code[²](https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/intrinsics-for-avx2.html). Therefore, x86 architectures that utilize AVX / AVX2 intrinsics can perform faster and more efficient computations on large amounts of data, such as tensors for machine learning.
+The x86 architectures are a family of processors that use a 32-bit or 64-bit instruction set. <mark style="color:green;">**AVX and AVX2 are extensions of the x86 instruction set**</mark> that enable <mark style="color:purple;">**advanced vector extensions**</mark> for <mark style="color:red;">**parallel processing of data**</mark>[²](https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/intrinsics-for-avx2.html). Intrinsics are functions that provide access to these extensions <mark style="color:red;">**without writing assembly code**</mark>[²](https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/intrinsics-for-avx2.html). Therefore, x86 architectures that utilize <mark style="color:blue;">**AVX / AVX2 intrinsics can perform faster and more efficient computations on large amounts of data**</mark>, such as tensors for machine learning.
 
 ## Reference
 
