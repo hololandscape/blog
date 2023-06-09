@@ -21,11 +21,11 @@ There are several reasons:
 
 #### Features
 
-* Optimizing via <mark style="color:green;">**ARM NEON**</mark>, <mark style="color:green;">**Accelerate**</mark>, and <mark style="color:green;">**Metal frameworks**</mark>
+* Optimizing via <mark style="color:green;">**ARM NEON**</mark>, <mark style="color:green;">**Accelerate**</mark>, and [<mark style="color:green;">**Metal**</mark>](metal.md) <mark style="color:green;">**frameworks**</mark>
 * [<mark style="color:green;">**AVX, AVX2**</mark> and <mark style="color:green;">**AVX512**</mark> support for x86 architectures](ggml.md#intrinsic-avx-avx2-on-x86)
 * [Mixed F16/<mark style="background-color:green;">**F32 precision**</mark>](type-for-nnc.md)
 * 4,5,8 bit [<mark style="color:green;">**integer quantization**</mark>](ggml.md#integer-quantization) support
-* Supports <mark style="color:green;">**OpenBLAS**</mark>/<mark style="color:red;">**Apple BLAS**</mark>/ARM Performance Lib/ATLAS/<mark style="color:orange;">**BLIS**</mark>/Intel MKL/NVHPC/ACML/SCSL/SGIMAH  and more in BLAS
+* Supports [<mark style="color:green;">**OpenBLAS**</mark>](blas.md)/<mark style="color:red;">**Apple BLAS**</mark>/ARM Performance Lib/ATLAS/<mark style="color:orange;">**BLIS**</mark>/Intel MKL/NVHPC/ACML/SCSL/SGIMAH  and more in BLAS
 * <mark style="color:red;">**cuBLAS**</mark> and CLBlast support
 
 ## Build
