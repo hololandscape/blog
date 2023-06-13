@@ -53,6 +53,13 @@
 
 ## 🛤 AI techniques
 
+* [🧠 Stable Diffusion](ai-techniques/stable-diffusion/README.md)
+  * [🍁 Samplers](ai-techniques/stable-diffusion/samplers.md)
+  * [🥠 Prompt](ai-techniques/stable-diffusion/prompt.md)
+  * [🍰 SD Art](ai-techniques/stable-diffusion/sd-art.md)
+  * [😄 ControlNet](ai-techniques/stable-diffusion/controlnet/README.md)
+    * [🪡 Settings Explained](ai-techniques/stable-diffusion/controlnet/settings-explained.md)
+    * [🐳 ControlNet with models](ai-techniques/stable-diffusion/controlnet/controlnet-with-models.md)
 * [🦌 DeepSpeed](ai-techniques/deepspeed.md)
 * [🤟 LangChain](ai-techniques/langchain/README.md)
   * [Concepts](ai-techniques/langchain/concepts.md)

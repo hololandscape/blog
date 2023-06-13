@@ -15,9 +15,9 @@ It makes use of technique <mark style="color:red;">**quantization that allows fo
 
 ### The Binary Format
 
-GGML files consists of <mark style="color:blue;">**binary-encoded data that is laid out according to a specified format**</mark>. The format <mark style="color:purple;">**specifies what kind of data is present in the file**</mark>, <mark style="color:red;">**how it is represented**</mark>, and <mark style="color:green;">**the order**</mark> in which it appears.
+GGML files consist of <mark style="color:blue;">**binary-encoded data that is laid out according to a specified format**</mark>. The format <mark style="color:purple;">**specifies what kind of data is present in the file**</mark>, <mark style="color:red;">**how it is represented**</mark>, and <mark style="color:green;">**the order**</mark> in which it appears.
 
-The <mark style="color:purple;">**first piece**</mark> of information present in GGML file is a <mark style="color:purple;">**GGML version number,**</mark> it uses <mark style="color:orange;">**three components**</mark> that define a LLM:
+The <mark style="color:purple;">**first piece**</mark> of information present in the GGML file is a <mark style="color:purple;">**GGML version number,**</mark> it uses <mark style="color:orange;">**three components**</mark> that define a LLM:
 
 * The model's Hyperparameters
 * Vocabulary
@@ -25,13 +25,13 @@ The <mark style="color:purple;">**first piece**</mark> of information present in
 
 ### GGML Versions
 
-#### Support backwards-compatibility
+#### Support backward-compatibility
 
 GGML uses <mark style="color:orange;">**versioning**</mark> to introduce improvements that may change the format of the encoding.
 
 ### [Hyperparameters](https://en.wikipedia.org/wiki/Hyperparameter\_\(machine\_learning\))
 
-It uses to describes a value that is used to configure the behavior of a large language model;
+It uses to describe a value that is used to configure the behavior of a large language model;
 
 It is in contrast to the model's parameters like the weights that were derived in the training process that was used to create the model.
 
@@ -49,17 +49,17 @@ Although hyperparameters are different across models, the most models have:
 
 <mark style="color:blue;">**As the name implies**</mark>, a model's vocabulary comprises components that are used by the model to generate language (text).
 
-The <mark style="color:blue;">**vocabulary of a LLM**</mark> <mark style="color:red;">**consists**</mark> of "<mark style="color:red;">**tokens**</mark>". A token <mark style="color:green;">**can be an entire word**</mark>, but oftentimes they are <mark style="color:orange;">**word**</mark><mark style="color:orange;">\*\*</mark> <mark style="color:orange;"></mark>_<mark style="color:orange;">**fragments**</mark>_. \*\*<mark style="color:blue;">**LLM use tokens to express a large number of words form a relatively smaller number of components.**</mark>
+The <mark style="color:blue;">**vocabulary of a LLM**</mark> <mark style="color:red;">**consists**</mark> of "<mark style="color:red;">**tokens**</mark>". A token <mark style="color:green;">**can be an entire word**</mark>, but oftentimes they are <mark style="color:orange;">**word**</mark><mark style="color:orange;">\*\*</mark> <mark style="color:orange;"></mark>_<mark style="color:orange;">**fragments**</mark>_. \*\*<mark style="color:blue;">**LLM uses tokens to express a large number of words from a relatively smaller number of components.**</mark>
 
-For example, Consider a vocabulary with the following tokens: `whi`, `ch` `le`, `who`, and `a`; This vocabulary can be used to create the English words. With the vocabulary like this, the model-creator can tune the models' behavior and performance.
+For example, Consider a vocabulary with the following tokens: `whi`, `ch` `le`, `who`, and `a`; This vocabulary can be used to create English words. With a vocabulary like this, the model creator can tune the models' behavior and performance.
 
-The model's hyperparameters typically contains a value that specifies the number of tokens in the vocabulary. The vocabulary is encoded as a list of tokens, each of which includes a 32-bit integer that specifies the length of the token. And it depends on different GGML version, the token may also include 32-bit floating point score, which represents the frequency of that token in the model's training data.
+The model's hyperparameters typically contain a value that specifies the number of tokens in the vocabulary. The vocabulary is encoded as a list of tokens, each of which includes a 32-bit integer that specifies the length of the token. And it depends on different GGML versions, the token may also include a 32-bit floating point score, which represents the frequency of that token in the model's training data.
 
 ### Weight
 
-LLMs can be improved by increasing the number of _weights_ in the model.<mark style="color:blue;">**The total number of a weights in a model are referred to as the "size" of that model.**</mark> For example, the [StableLM](https://github.com/Stability-AI/StableLM) implementation of the [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) language model architecture is available in a number of sizes, like 3B and 7B, which stands for 3-billion and 7-billion, respectively.
+LLMs can be improved by increasing the number of _weights_ in the model. <mark style="color:blue;">**The total number of weights in a model is referred to as the "size" of that model.**</mark> For example, the [StableLM](https://github.com/Stability-AI/StableLM) implementation of the [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) language model architecture is available in a number of sizes, like 3B and 7B, which stand for 3 billion and 7 billion, respectively.
 
-These numbers above refer to the total number of weights in the model. <mark style="color:purple;">**Weights are grouped together in sets called "layers"**</mark>, and <mark style="color:red;">**within a layer**</mark> <mark style="color:purple;">**weights are grouped together in structures**</mark> called "<mark style="color:purple;">**tensors**</mark>".
+These numbers above refer to the total number of weights in the model. <mark style="color:purple;">**Weights are grouped together in sets called "layers"**</mark>, and <mark style="color:red;">**within a layer,**</mark> <mark style="color:purple;">**weights are grouped together in structures**</mark> called "<mark style="color:purple;">**tensors**</mark>".
 
 So, for instance, both StableLM 3B and StableLM 7B use layers that comprise the same tensors, but StableLM 3B has relatively _<mark style="color:red;">**fewer**</mark>_<mark style="color:red;">\*\* \*\*</mark><mark style="color:red;">**layers**</mark> when compared to StableLM 7B.
 
@@ -68,7 +68,7 @@ So, for instance, both StableLM 3B and StableLM 7B use layers that comprise the 
 In GGML, a tensor consists of a number of components, including:
 
 * Name
-* 4-element list that represents the number of dimensions in the tensor and their lengths
+* The 4-element list that represents the number of dimensions in the tensor and their lengths
 * A list of the weights in that tensor
 
 <img src="../../.gitbook/assets/file.excalidraw.svg" alt="Example" class="gitbook-drawing">
@@ -83,7 +83,7 @@ The <mark style="color:orange;">**weights in a GGML file are encoded as a list o
 
 ### Integer Quantization
 
-Integer quantization support means that the library can convert data from <mark style="color:red;">**floating-point format**</mark> (such as FP32) to <mark style="color:red;">**integer format**</mark> (such as INT8) and perform computations using integers instead of floating-point numbers¹. <mark style="color:blue;">**This can reduce the memory**</mark> and computing requirements of the library, as well as <mark style="color:blue;">**improve the performance on some hardware platforms**</mark>². <mark style="color:red;">**However**</mark>, <mark style="color:red;">**integer**</mark> quantization also <mark style="color:red;">**introduces some error and loss of precision**</mark>, so the library has to use some techniques to recover the accuracy and maintain the quality of the results³.
+Integer quantization support means that the library can convert data from <mark style="color:red;">**floating-point format**</mark> (such as FP32) to <mark style="color:red;">**integer format**</mark> (such as INT8) and perform computations using integers instead of floating-point numbers¹. <mark style="color:blue;">**This can reduce the memory**</mark> and computing requirements of the library, as well as <mark style="color:blue;">**improve the performance on some hardware platforms**</mark>². <mark style="color:red;">**However**</mark>, <mark style="color:red;">**integer**</mark> quantization also <mark style="color:red;">**introduces some errors and loss of precision**</mark>, so the library has to use some techniques to recover the accuracy and maintain the quality of the results³.
 
 ### Automatic Differentiation
 
@@ -95,7 +95,7 @@ Automatic differentiation means that the library can <mark style="color:red;">**
 
 ADAM stands for **adaptive moment estimation** and is a popular optimizer for deep learning models[²](https://stats.stackexchange.com/questions/315626/the-reason-of-superiority-of-limited-memory-bfgs-over-adam-solver). It uses <mark style="color:blue;">**adaptive learning rates**</mark> for each parameter based on the first and second moments (_<mark style="color:red;">**mean and variance**</mark>_) of the gradients[³](https://en.wikipedia.org/wiki/Limited-memory\_BFGS). It also incorporates <mark style="color:red;">**momentum**</mark>, which helps to <mark style="color:red;">**accelerate**</mark> the convergence and avoid local minima[³](https://en.wikipedia.org/wiki/Limited-memory\_BFGS).
 
-L-BFGS stands for **limited-memory Broyden–Fletcher–Goldfarb–Shanno** and is a quasi-Newton optimizer that approximates the inverse Hessian matrix using a limited amount of memory[⁴](https://www.researchgate.net/publication/322652684\_Seismic\_Full-Waveform\_Inversion\_Using\_Deep\_Learning\_Tools\_and\_Techniques). It uses a line search algorithm to find the optimal step size along the search direction[⁴](https://www.researchgate.net/publication/322652684\_Seismic\_Full-Waveform\_Inversion\_Using\_Deep\_Learning\_Tools\_and\_Techniques). It is <mark style="color:orange;">**often**</mark> <mark style="color:orange;">**faster**</mark> and <mark style="color:orange;">**more accurate than gradient descent**</mark>, but <mark style="color:orange;">**requires more computation and memory**</mark>[⁴](https://www.researchgate.net/publication/322652684\_Seismic\_Full-Waveform\_Inversion\_Using\_Deep\_Learning\_Tools\_and\_Techniques).
+L-BFGS stands for **limited-memory Broyden–Fletcher–Goldfarb–Shanno** and is a quasi-Newton optimizer that approximates the inverse Hessian matrix using a limited amount of memory[⁴](https://www.researchgate.net/publication/322652684\_Seismic\_Full-Waveform\_Inversion\_Using\_Deep\_Learning\_Tools\_and\_Techniques). It uses a line search algorithm to find the optimal step size along the search direction[⁴](https://www.researchgate.net/publication/322652684\_Seismic\_Full-Waveform\_Inversion\_Using\_Deep\_Learning\_Tools\_and\_Techniques). It is <mark style="color:orange;">**often**</mark> <mark style="color:orange;">**faster**</mark> and <mark style="color:orange;">**more accurate than gradient descent**</mark> but <mark style="color:orange;">**requires more computation and memory**</mark>[⁴](https://www.researchgate.net/publication/322652684\_Seismic\_Full-Waveform\_Inversion\_Using\_Deep\_Learning\_Tools\_and\_Techniques).
 
 ### Intrinsic AVX/AVX2 on x86
 
