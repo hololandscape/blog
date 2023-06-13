@@ -67,7 +67,7 @@ Line Art renders the outline of an image. It attempts to convert it to a sample 
 
 ### ControlNet Inpainting
 
-ControlNet inpainting lets you use high denoising strength in inpainting to generate large variations without sacrificing consistency with the picture as a whole.
+ControlNet inpainting lets you use high denoising strength in inpainting to generate large variations without sacrificing consistency with the picture.
 
 ## Credit
 
