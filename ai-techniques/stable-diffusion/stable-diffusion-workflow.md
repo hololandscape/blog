@@ -10,9 +10,9 @@ We give Stable Diffusion a text prompt, and it returns an image.
 
 ### Step1
 
-Stable Diffusion generates a _<mark style="color:red;">**random tensor in the latent space**</mark>_. We _<mark style="color:purple;">**control this tensor by setting the seed\[#TODO] of the random number generator.**</mark>_ If we <mark style="color:blue;">**set the seed to a certain value**</mark>, we will <mark style="color:blue;">**always get the same random tensor**</mark>. _<mark style="color:red;">**This is your image in latent space. But it is all noise for now.**</mark>_
+Stable Diffusion generates a _<mark style="color:red;">**random tensor in the latent space**</mark>_. We _<mark style="color:purple;">**control this tensor by setting the**</mark>_ [_<mark style="color:purple;">**seed**</mark>_ ](the-important-parameters-for-stunning-ai-image.md#seed)_<mark style="color:purple;">**of the random number generator.**</mark>_ If we <mark style="color:blue;">**set the seed to a certain value**</mark>, we will <mark style="color:blue;">**always get the same random tensor**</mark>. _<mark style="color:red;">**This is your image in latent space. But it is all noise for now.**</mark>_
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt="" width="339"><figcaption><p>A random tensor is generated in latent space</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt="" width="339"><figcaption><p>A random tensor is generated in latent space</p></figcaption></figure>
 
 ### Step2
 
@@ -44,7 +44,7 @@ Finally, [the decoder of VAE converts the latent image back to pixel space](vae.
 
 The image changes from noisy to clean. _<mark style="color:red;">**How about if the noise predictor not working well in the initial steps?**</mark>_ This <mark style="color:red;">**is only partly true**</mark>. The real reason is we try to get to an expected noise at each sampling step. This is called the _<mark style="color:blue;">**noise schedule**</mark>_. Here is an example.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>A noise schedule for 15 sampling steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>A noise schedule for 15 sampling steps.</p></figcaption></figure>
 
 <mark style="color:green;">**The noise schedule is something we define**</mark>. We can choose to _<mark style="color:blue;">**subtract the same amount of noise at each step**</mark>_. <mark style="color:blue;">**Or**</mark> we can _<mark style="color:blue;">**subtract more in the beginning**</mark>_, <mark style="color:purple;">**like above**</mark>. _<mark style="color:orange;">**The sampler subtracts just enough noise in each step to reach the expected noise in the next step**</mark>_. That's what you see in the [step-by-step image](stable-diffusion-workflow.md#the-process-of-the-image-evolves-in-each-sampling-step).
 
@@ -54,7 +54,7 @@ Image-to-image is a method first proposed in the [SDEdit ](https://arxiv.org/abs
 
 <mark style="color:red;">**An input image**</mark> and <mark style="color:red;">**a text prompt**</mark> _<mark style="color:blue;">**are supplied as the input**</mark>_ in image-to-image. The generated image will be conditioned by both the input image and text prompt. For example, using this amateur drawing and the prompt "photo of perfect green apple with stem, water droplets, dramatic lighting" as inputs, image-to-image can turn it into a professional drawing:
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Image-to-image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Image-to-image</p></figcaption></figure>
 
 ### Step1
 

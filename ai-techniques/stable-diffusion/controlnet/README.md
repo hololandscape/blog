@@ -45,7 +45,7 @@ The process of extracting specific information(edge in this case) from the input
 
 [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)(_<mark style="color:red;">**Edge detection is not the only way an image can be preprocessed**</mark>_) is a fast human keypoint detection model that can extract human poses like positions of hands, legs, and head, like:
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt="" width="300"><figcaption><p>Input image annotated with human pose detection using Openpose.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt="" width="300"><figcaption><p>Input image annotated with human pose detection using Openpose.</p></figcaption></figure>
 
 #### ControlNet workflow using OpenPose
 

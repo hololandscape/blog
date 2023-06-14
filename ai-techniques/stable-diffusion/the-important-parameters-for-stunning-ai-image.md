@@ -72,7 +72,7 @@ _<mark style="color:red;">**Recommendation: Set batch size to 4 or 8.**</mark>_
 
 Stable Diffusion is that it often has issues with faces and eyes. <mark style="color:red;">**Restore faces**</mark> is <mark style="color:red;">**a post-processing method**</mark> applied to images using AI trained specifically to <mark style="color:red;">**correct faces.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 _<mark style="color:red;">**Recommendation: Turn restore faces on when you generate images with faces.**</mark>_
 

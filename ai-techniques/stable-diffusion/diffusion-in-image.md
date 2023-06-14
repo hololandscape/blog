@@ -34,7 +34,7 @@ Example of forward diffusion of a cat image
 
 ### Reverse diffusion
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>The reverse diffusion process recovers an image.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The reverse diffusion process recovers an image.</p></figcaption></figure>
 
 _<mark style="color:red;">**The main idea of reverse diffusion**</mark>_ is starting from a noisy, meaningless image, it recovers a cat OR a dog image.
 
