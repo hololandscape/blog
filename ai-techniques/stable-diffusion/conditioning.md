@@ -12,7 +12,7 @@ Text-to-image
 
 #### The overview of a text prompt is processed and fed into the noise predictor
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>How the text prompt is processed and fed into the noise predictor to steer image generation</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p>How the text prompt is processed and fed into the noise predictor to steer image generation</p></figcaption></figure>
 
 #### [Tokenizer](conditioning.md#tokenizer-1)
 
@@ -32,7 +32,7 @@ The tokens and embeddings of any prompt with the [notebook](https://colab.resear
 
 ### Tokenizer
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption><p>Tokenizer</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>Tokenizer</p></figcaption></figure>
 
 The text prompt is first **tokenized** by a [CLIP tokenizer](https://huggingface.co/docs/transformers/model\_doc/clip) (More detail for [CLIP](clip.md)). _<mark style="color:green;">**Tokenization**</mark>_ is the computer's way of understanding words(It compares to humans). This is the reason the words in a text prompt are first converted to numbers.
 
@@ -54,7 +54,7 @@ Embedding can trigger a style with a keyword. Embeddings can do magic. Scientist
 
 ### Feeding embeddings to noise predictor
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>From embeddings to the noise predictor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>From embeddings to the noise predictor</p></figcaption></figure>
 
 The embedding needs to be further processed by the _<mark style="color:red;">**text transformer**</mark>_ before feeding into the noise predictor. The transformer is like a universal adapter for conditioning. In this case, its input is <mark style="color:red;">**text embedding vectors**</mark>, but <mark style="color:purple;">**it could**</mark> as well be something else like _<mark style="color:purple;">**class labels, images**</mark>_, and [depth maps](depth-maps.md). The transformer not only further processes the data but also _<mark style="color:red;">**provides a mechanism to include different conditioning modalities**</mark>_.
 

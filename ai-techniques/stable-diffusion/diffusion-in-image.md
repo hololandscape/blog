@@ -16,13 +16,13 @@ Stable Diffusion belongs to a <mark style="color:red;">**class of deep learning 
 
 Stable Diffusion is a text-to-image deep-learning model.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Stable diffusion turns text prompts into images</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Stable diffusion turns text prompts into images</p></figcaption></figure>
 
 ## Training part
 
 ### Foward diffusion
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Forward diffusion turns a <a href="https://arxiv.org/abs/2011.13456">photo </a>into noise.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>Forward diffusion turns a <a href="https://arxiv.org/abs/2011.13456">photo </a>into noise.</p></figcaption></figure>
 
 A <mark style="color:red;">**forward diffusion**</mark> process adds noise to a training image, gradually turning it into an uncharacteristic noise image. The forward process will run any cat or dog image into a noise image. _<mark style="color:red;">**Eventually, you won't be able to tell whether they are initially a dog or a cat.**</mark>_
 
@@ -30,7 +30,7 @@ It's like a drop of ink fell into a glass of water. The ink drop diffuses in wat
 
 Example of forward diffusion of a cat image
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Forward diffusion of a cat image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Forward diffusion of a cat image</p></figcaption></figure>
 
 ### Reverse diffusion
 
@@ -86,7 +86,7 @@ We will get an image of either a cat or a dog.
 Here is no control over generating a cat or a dog's image(unconditioned). More detail for [conditioning](conditioning.md)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Reverse diffusion works by subtracting the predicted noise from the image successively</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Reverse diffusion works by subtracting the predicted noise from the image successively</p></figcaption></figure>
 
 ## Credit
 

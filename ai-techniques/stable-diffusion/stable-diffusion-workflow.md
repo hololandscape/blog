@@ -12,7 +12,7 @@ We give Stable Diffusion a text prompt, and it returns an image.
 
 Stable Diffusion generates a _<mark style="color:red;">**random tensor in the latent space**</mark>_. We _<mark style="color:purple;">**control this tensor by setting the seed\[#TODO] of the random number generator.**</mark>_ If we <mark style="color:blue;">**set the seed to a certain value**</mark>, we will <mark style="color:blue;">**always get the same random tensor**</mark>. _<mark style="color:red;">**This is your image in latent space. But it is all noise for now.**</mark>_
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="339"><figcaption><p>A random tensor is generated in latent space</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="339"><figcaption><p>A random tensor is generated in latent space</p></figcaption></figure>
 
 ### Step2
 
@@ -24,7 +24,7 @@ The noise predictor U-Net takes the latent noisy image and text prompt as input 
 
 Subtract the latent noise from the latent image. This becomes our **new latent image**.
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Step2 and 3 are repeated for a <mark style="color:red;">**certain number of sampling steps**</mark>, for example 20 times.
@@ -54,13 +54,13 @@ Image-to-image is a method first proposed in the [SDEdit ](https://arxiv.org/abs
 
 <mark style="color:red;">**An input image**</mark> and <mark style="color:red;">**a text prompt**</mark> _<mark style="color:blue;">**are supplied as the input**</mark>_ in image-to-image. The generated image will be conditioned by both the input image and text prompt. For example, using this amateur drawing and the prompt "photo of perfect green apple with stem, water droplets, dramatic lighting" as inputs, image-to-image can turn it into a professional drawing:
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Image-to-image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Image-to-image</p></figcaption></figure>
 
 ### Step1
 
 The input image is encoded to latent space.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 ### Step2
 
@@ -72,13 +72,13 @@ Noise is added to the latent image. [Denoising strength](denoising-strength.md) 
 
 The [_<mark style="color:green;">**noise predictor U-Net**</mark>_](diffusion-in-image.md#noise-predictor) _<mark style="color:green;">**takes the latent noisy image**</mark>_ and _<mark style="color:green;">**text prompt**</mark>_ _<mark style="color:red;">**as input**</mark>_ and _<mark style="color:red;">**predicts the noise in latent space (a 4x64x64 tensor)**</mark>_.
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 ### Step4
 
 Subtract the latent noise from the latent image. This becomes our new latent image.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Step3 3 and 4 are repeated for a certain number of sampling steps, for example, 20 times.
 
@@ -86,7 +86,7 @@ Step3 3 and 4 are repeated for a certain number of sampling steps, for example, 
 
 Finally, the decoder of VAE converts the latent image back to pixel space. This is the image you get after running image-to-image.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 All _<mark style="color:blue;">**image-to-image does is to set the initial latent image**</mark>_ with _<mark style="color:red;">**a bit of noise**</mark>_ and _<mark style="color:red;">**a bit of input image**</mark>_. Setting _<mark style="color:green;">**denoising strength to 1 is equivalent to text-to-image**</mark>_ because the _<mark style="color:yellow;">**initial latent image is entirely random noise**</mark>_.
 
@@ -102,13 +102,13 @@ _<mark style="color:blue;">**Depth-to-image\[#TODO] is an enhancement to image-t
 
 The input image is encoded into the latent state
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 ### Step2
 
 [MiDAS ](https://github.com/isl-org/MiDaS)(an AI depth model) estimates the depth map from the input image.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 ### Step3
 
@@ -122,13 +122,13 @@ Noise is added to the latent image. [Denoising strength](denoising-strength.md) 
 
 The noise predictor estimates the noise of the latent space, _<mark style="color:red;">**conditioned by the text prompt and the depth map**</mark>_.
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 ### Step5
 
 Subtract the latent noise from the latent image. This becomes our <mark style="color:red;">**new latent image**</mark>.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 Steps 4 and 5 are repeated for the number of sampling steps.
 
