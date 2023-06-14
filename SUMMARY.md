@@ -54,6 +54,7 @@
 ## 🛤 AI techniques
 
 * [🧠 Stable Diffusion](ai-techniques/stable-diffusion/README.md)
+  * [🤼♀ The important parameters for stunning AI image](ai-techniques/stable-diffusion/the-important-parameters-for-stunning-ai-image.md)
   * [📼 Stable Diffusion v1 vs v2](ai-techniques/stable-diffusion/stable-diffusion-v1-vs-v2.md)
   * [🚬 Classifier Free Guidance](ai-techniques/stable-diffusion/classifier-free-guidance.md)
   * [⚜ Denoising strength](ai-techniques/stable-diffusion/denoising-strength.md)
