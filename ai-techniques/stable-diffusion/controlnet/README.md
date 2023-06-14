@@ -12,7 +12,7 @@ ControlNet adds one more conditioning in addition to the text prompt. The extra 
 
 ControlNet works by attaching trainable network modules to various parts of the U-Net (noise predictor) of the Stable Diffusion Model. The weight of the Stable Diffusion model is locked so that they are unchanged during training. Only the attached modules are modified during training.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 According to the diagram from the [paper](https://arxiv.org/abs/2302.05543). Initially, the weights of the attached network module are all zero, making the new model able to take advantage of the trained and locked model.
 
@@ -37,7 +37,7 @@ Each control method is trained independently.
 
 ControlNet takes an additional input image and detects its outlines using the <mark style="color:red;">**Canny edge detector**</mark>. An image containing the detected edges is then saved as a <mark style="color:red;">**control map. It is fed into the  ControlNet model as an extra conditioning to the text prompt.**</mark>
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Stable Diffusion ControlNet with Canny edge conditioning. Source: stable diffusion art</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption><p>Stable Diffusion ControlNet with Canny edge conditioning. Source: stable diffusion art</p></figcaption></figure>
 
 The process of extracting specific information(edge in this case) from the input image is called <mark style="color:red;">**annotation**</mark>([Adding Conditional Control to Text-to-image Diffusion Models](https://arxiv.org/abs/2302.05543)) or <mark style="color:red;">**preprocessing**</mark> (in the ControlNet extension).
 
@@ -45,11 +45,11 @@ The process of extracting specific information(edge in this case) from the input
 
 [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)(_<mark style="color:red;">**Edge detection is not the only way an image can be preprocessed**</mark>_) is a fast human keypoint detection model that can extract human poses like positions of hands, legs, and head, like:
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt="" width="300"><figcaption><p>Input image annotated with human pose detection using Openpose.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (29).png" alt="" width="300"><figcaption><p>Input image annotated with human pose detection using Openpose.</p></figcaption></figure>
 
 #### ControlNet workflow using OpenPose
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 In this ControlNet workflow, <mark style="color:purple;">**key points are extracted from the input image using OpenPose**</mark> and saved as a control map containing the positions of key points. It is then fed to Stable Diffusion as an <mark style="color:purple;">**extra conditioning**</mark> together with the text prompt. Images are generated based on these two conditionings.
 

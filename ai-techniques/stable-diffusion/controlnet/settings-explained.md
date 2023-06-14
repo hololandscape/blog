@@ -26,7 +26,7 @@ Whether to enable ControlNet
 
 ### Low VRAM
 
-For GPU with less than 8GB VRAM. It is an experimental feature. Check if you are out of GPU memory, or want to increase the number of images processed.
+For GPU with less than 8GB VRAM. It is an experimental feature. Check if you are out of GPU memory or want to increase the number of images processed.
 
 ### Allow Preview
 

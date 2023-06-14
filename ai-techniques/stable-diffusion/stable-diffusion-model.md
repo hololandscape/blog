@@ -14,7 +14,7 @@ _<mark style="color:red;">**Stable Diffusion is a latent diffusion model**</mark
 
 The image resolution is reflected in the size of the latent image tensor. <mark style="color:red;">**The size of the latent image is 4x64x64 for 512×512 images only**</mark>. <mark style="color:red;">**It is 4x96x64 for a 768×512 portrait image**</mark>. That's why it takes longer and moves <mark style="color:red;">**VRAM**</mark> to generate a larger image.
 
-Since Stable Diffusion v1 is fine-tuned on 512x512 images, generating images larger than 512x512 could result in duplicate objects. For example, the infamous two heads, etc. If you must, keep at least one side to 512 pixels and use an AI upscaler for higher resolution.
+Since Stable Diffusion v1 is fine-tuned on 512x512 images, generating images larger than 512x512 could result in duplicate objects. For example, the infamous two heads, etc. If you must, keep at least one side to 512 pixels and use an AI upscales for higher resolution.
 
 ## [Manifold hypothesis](https://en.wikipedia.org/wiki/Manifold\_hypothesis)
 
@@ -39,3 +39,8 @@ Here's how latent reverse diffusion in Stable Diffusion works.
 VAE files are used in Stable Diffusion v1 to improve eyes and faces. They are the _<mark style="color:red;">**decoder of the autoencoder**</mark>_ we just talked about. By further fine-tuning the decoder, the model can paint finer details.&#x20;
 
 However, _<mark style="color:red;">**compressing an image into the latent space does lose information since the original VAE did not recover the fine details**</mark>_. Instead, the VAE decoder is responsible for painting fine details.
+
+## Credit
+
+{% embed url="https://stable-diffusion-art.com/how-stable-diffusion-work/#Stable_Diffusion_model" %}
+
