@@ -16,13 +16,13 @@ Stable Diffusion belongs to a <mark style="color:red;">**class of deep learning 
 
 Stable Diffusion is a text-to-image deep-learning model.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Stable diffusion turns text prompts into images</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Stable diffusion turns text prompts into images</p></figcaption></figure>
 
 ## Training part
 
 ### Foward diffusion
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Forward diffusion turns a <a href="https://arxiv.org/abs/2011.13456">photo </a>into noise.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Forward diffusion turns a <a href="https://arxiv.org/abs/2011.13456">photo </a>into noise.</p></figcaption></figure>
 
 A <mark style="color:red;">**forward diffusion**</mark> process adds noise to a training image, gradually turning it into an uncharacteristic noise image. The forward process will run any cat or dog image into a noise image. _<mark style="color:red;">**Eventually, you won't be able to tell whether they are initially a dog or a cat.**</mark>_
 
@@ -30,11 +30,11 @@ It's like a drop of ink fell into a glass of water. The ink drop diffuses in wat
 
 Example of forward diffusion of a cat image
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Forward diffusion of a cat image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Forward diffusion of a cat image</p></figcaption></figure>
 
 ### Reverse diffusion
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The reverse diffusion process recovers an image.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>The reverse diffusion process recovers an image.</p></figcaption></figure>
 
 _<mark style="color:red;">**The main idea of reverse diffusion**</mark>_ is starting from a noisy, meaningless image, it recovers a cat OR a dog image.
 
@@ -68,7 +68,7 @@ Here is the training process for the **noise predictor** below:
 3. Corrupt the training image by adding this noisy image up to a certain number of steps
 4. Teach <mark style="color:red;">**the noise predictor**</mark> to tell us how much noise was added. This is done by tuning its weights and showing it the correct answer.
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 In the above picture, noise is sequentially added at each step. The noise predictor estimates the total noise added up to each step.
 
@@ -86,7 +86,7 @@ We will get an image of either a cat or a dog.
 Here is no control over generating a cat or a dog's image(unconditioned). More detail for [conditioning](conditioning.md)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Reverse diffusion works by subtracting the predicted noise from the image successively</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Reverse diffusion works by subtracting the predicted noise from the image successively</p></figcaption></figure>
 
 ## Credit
 
