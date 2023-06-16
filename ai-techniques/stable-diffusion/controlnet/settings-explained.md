@@ -50,13 +50,13 @@ It is used to control how much the control map is followed relative to the promp
 
 ### Starting ControlNet step
 
-The step ControlNet first applies. 0 means the very first step.
+The ControlNet first applies 0 means the very first step.
 
 ### Ending ControlNet step
 
 The step ControlNet ends. 1 means the last step.
 
-<mark style="color:red;">**The initial steps set the global composition**</mark>(_<mark style="color:green;">**The sampler removes the maximum amount of noise in each step, and it starts with a random tensor in latent space**</mark>_), the pose is set even if you only apply ControlNet to as few as 20% of the first sampling steps.
+<mark style="color:red;">**The initial steps set the global composition (**</mark>_<mark style="color:green;">**The sampler removes the maximum amount of noise in each step, and it starts with a random tensor in latent space**</mark>_), the pose is set even if you only apply ControlNet to as few as 20% of the first sampling steps.
 
 In conclusion, changing the ending ControlNet step has a smaller effect because the global composition is set in the beginning steps.
 
@@ -64,7 +64,7 @@ In conclusion, changing the ending ControlNet step has a smaller effect because 
 
 ### Balanced
 
-The ControlNet is applied to both conditioning and unconditioning in a **sampling step**. This is the standard mode of operation.
+The ControlNet is applied to both conditioning and Un conditioning in a **sampling step**. This is the standard mode of operation.
 
 ### My prompt is more important
 
@@ -72,7 +72,7 @@ The effect of ControlNet is gradually reducing over the instances of U-Net injec
 
 ### ControlNet is more important
 
-Turn off ControlNet on unconditioning. Effectively, the CFG scale also acts as a multiplier for the effect of the ControlNet.
+Turn off ControlNet on Un conditioning. Effectively, the CFG scale also acts as a multiplier for the effect of the ControlNet.
 
 ## Resize mode
 
@@ -88,7 +88,7 @@ Fit the whole control map to the image canvas. Extend the control map with empty
 
 ## Multiple ControlNets
 
-It supports to use ControlNets multiple times to generate an image. (It helps us to pick different features from different pictures like CN0 provides pose, CN2 provides background, etc...)
+It supports using ControlNets multiple times to generate an image. (It helps us to pick different features from different pictures like CN0 provides pose, CN2 provides background, etc...)
 
 {% hint style="info" %}
 * Adjust ControlNet weights if one of them does not do its job.

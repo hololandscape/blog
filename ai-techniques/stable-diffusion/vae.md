@@ -17,7 +17,7 @@ The VAE neural network has two parts:
 
 The encoder compresses an image to a lower dimensional representation in the latent space. The decoder restores the image from the latent space.
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption><p>Variational autoencoder transforms the image to and from the latent space.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption><p>Variational autoencoder transforms the image to and from the latent space.</p></figcaption></figure>
 
 _<mark style="color:red;">**The latent space of the Stable Diffusion model is 4x64x64, 48 times smaller than the image pixel space**</mark>_. All the _<mark style="color:green;">**forward and reverse diffusions**</mark>_ we talked about are done in the latent space.
 

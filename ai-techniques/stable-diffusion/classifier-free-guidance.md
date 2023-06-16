@@ -12,7 +12,7 @@ The <mark style="color:red;">**classifier guidance scale**</mark> is a parameter
 
 [Here is an example](https://arxiv.org/abs/2207.12598)r below. Suppose there are 3 groups of images with the label "cat", "dog" and "human". If _<mark style="color:red;">**the diffusion is unguided, the model will draw samples from each group's total population, but sometimes it may draw images that could fit two labels**</mark>_, e.g. a boy petting a dog.
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption><p>Classifier guidance. Left: unguided. Middle: small guidance scale. Right: large guidance scale.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p>Classifier guidance. Left: unguided. Middle: small guidance scale. Right: large guidance scale.</p></figcaption></figure>
 
 <mark style="color:blue;">**With high classifier guidance**</mark>, the images produced by the diffusion model <mark style="color:purple;">**would be biased toward**</mark> the <mark style="color:red;">**extreme or unambiguous examples**</mark>. If you ask the model for a cat, it will return an image that is unambiguously a cat and nothing else.
 

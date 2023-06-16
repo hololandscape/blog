@@ -12,7 +12,7 @@ Embedding is the result of [textual inversion](https://textual-inversion.github.
 
 The textual inversion is NOT the ability to add new styles or objects — other fine-tuning methods can do that as well or better. <mark style="color:orange;">**It is the fact that it can do so**</mark><mark style="color:orange;">** **</mark>_<mark style="color:orange;">**without**</mark>_<mark style="color:orange;">** **</mark><mark style="color:orange;">**changing the model.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>New embedding is found for the new token S* through textual inversion. Source: original research article</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>New embedding is found for the new token S* through textual inversion. Source: original research article</p></figcaption></figure>
 
 <mark style="color:red;">**First you define a new keyword that’s not in the model for the new object or style**</mark>. That _<mark style="color:red;">**new keyword will get tokenized**</mark>_ (that _<mark style="color:red;">**is represented by a number**</mark>_) just like any other keywords in the prompt.
 
@@ -26,11 +26,11 @@ _<mark style="color:green;">**Textual inversion finds the embedding vector of th
 
 Toy cat can be used with other existing concepts (boat, backpack) in the model
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Example of embedding an object.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Example of embedding an object.</p></figcaption></figure>
 
 ### Embedding a style
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Example of embedding a style.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Example of embedding a style.</p></figcaption></figure>
 
 ## Where to find embeddings?
 
@@ -50,7 +50,7 @@ The downside of web interface is you cannot use the embedding with a different m
 
 First, download an embedding file from the [Concept Library](https://huggingface.co/sd-concepts-library). It is the file named `learned_embedds.bin`. Make sure don’t right click and save in the below screen. That will save a webpage that it links to. Click of the file name and click the download button in the next page.
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 Next, **rename the file as the keyword you wanted to use** this embedding with. It has to be something not exist in the model. `marc_allante.bin` is a good choice.
 
@@ -73,11 +73,11 @@ Use the filename as part of the prompt to
 
 There’s a button between the trash and the copy buttons:
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 Click it and you will see all the embeddings that are available. They are all under the **Textual Inversion** tab.
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**Clicking any of them will insert that into the prompt. This function is especially useful to eliminate the tedious work of making sure you’ve entered the embedding magic word correctly.**</mark>
 
