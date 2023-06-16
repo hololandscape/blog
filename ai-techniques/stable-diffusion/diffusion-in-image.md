@@ -34,7 +34,7 @@ Example of forward diffusion of a cat image
 
 ### Reverse diffusion
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>The reverse diffusion process recovers an image.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>The reverse diffusion process recovers an image.</p></figcaption></figure>
 
 _<mark style="color:red;">**The main idea of reverse diffusion**</mark>_ is starting from a noisy, meaningless image, it recovers a cat OR a dog image.
 
@@ -68,7 +68,7 @@ Here is the training process for the **noise predictor** below:
 3. Corrupt the training image by adding this noisy image up to a certain number of steps
 4. Teach <mark style="color:red;">**the noise predictor**</mark> to tell us how much noise was added. This is done by tuning its weights and showing it the correct answer.
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 In the above picture, noise is sequentially added at each step. The noise predictor estimates the total noise added up to each step.
 
@@ -86,7 +86,7 @@ We will get an image of either a cat or a dog.
 Here is no control over generating a cat or a dog's image(unconditioned). More detail for [conditioning](conditioning.md)
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Reverse diffusion works by subtracting the predicted noise from the image successively</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Reverse diffusion works by subtracting the predicted noise from the image successively</p></figcaption></figure>
 
 ## Credit
 

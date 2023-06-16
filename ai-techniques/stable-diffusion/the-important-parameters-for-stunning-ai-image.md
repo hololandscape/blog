@@ -22,7 +22,7 @@ Below are a few examples of increasing the CFG scale with the same random seed. 
 
 <mark style="color:red;">**Recommendation**</mark>: Starts with 7. (Increase if you want it to follow your prompt more)
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption><p>Higher CFG scale adheres more to the prompt.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Higher CFG scale adheres more to the prompt.</p></figcaption></figure>
 
 ## Sampling steps
 
@@ -40,7 +40,7 @@ There is a variety of sampling methods you can choose, depending on what GUI you
 
 Not all methods are created equal. Below are the processing time of various methods.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Rendering time for 20 steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Rendering time for 20 steps.</p></figcaption></figure>
 
 _<mark style="color:red;">**Recommendation: Euler**</mark>_
 
@@ -72,7 +72,7 @@ _<mark style="color:red;">**Recommendation: Set batch size to 4 or 8.**</mark>_
 
 Stable Diffusion is that it often has issues with faces and eyes. <mark style="color:red;">**Restore faces**</mark> is <mark style="color:red;">**a post-processing method**</mark> applied to images using AI trained specifically to <mark style="color:red;">**correct faces.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 _<mark style="color:red;">**Recommendation: Turn restore faces on when you generate images with faces.**</mark>_
 

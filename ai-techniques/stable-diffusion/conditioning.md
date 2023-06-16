@@ -32,7 +32,7 @@ The tokens and embeddings of any prompt with the [notebook](https://colab.resear
 
 ### Tokenizer
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption><p>Tokenizer</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p>Tokenizer</p></figcaption></figure>
 
 The text prompt is first **tokenized** by a [CLIP tokenizer](https://huggingface.co/docs/transformers/model\_doc/clip) (More detail for [CLIP](clip.md)). _<mark style="color:green;">**Tokenization**</mark>_ is the computer's way of understanding words(It compares to humans). This is the reason the words in a text prompt are first converted to numbers.
 
@@ -42,7 +42,7 @@ _<mark style="color:red;">**The stable Diffusion model is limited to using 75 to
 
 ### Embedding
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Embedding</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Embedding</p></figcaption></figure>
 
 Stable diffusion v1 uses Open AI's [ViT-L/14](https://github.com/CompVis/stable-diffusion) Clip model. Embedding is a 768-value vector. Each token has its own unique embedding vector. Embedding is fixed by the CLIP model, which is learned during training.
 

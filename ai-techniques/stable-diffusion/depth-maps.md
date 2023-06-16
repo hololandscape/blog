@@ -56,7 +56,7 @@ If we care about preserving the original composition
 
 We can dial denoising strength all the way up to 1 without losing composition. That makes transforming a scene to a different style easy.
 
-![](<../../.gitbook/assets/image (2).png>)![](../../.gitbook/assets/image.png)![](<../../.gitbook/assets/image (12).png>)![](<../../.gitbook/assets/image (40).png>)
+![](<../../.gitbook/assets/image (1).png>)![](../../.gitbook/assets/image.png)![](<../../.gitbook/assets/image (12).png>)![](<../../.gitbook/assets/image (40).png>)
 
 ## Summary
 

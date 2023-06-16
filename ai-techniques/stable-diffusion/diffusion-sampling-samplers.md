@@ -41,7 +41,7 @@ Compare the noise schedules of 15 steps and 30 steps below.
 
 What are the differences between them?
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt="" width="362"><figcaption><p>Samplers in AUTOMATIC1111</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt="" width="362"><figcaption><p>Samplers in AUTOMATIC1111</p></figcaption></figure>
 
 ### Old-School ODE solvers
 

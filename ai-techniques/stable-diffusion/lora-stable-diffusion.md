@@ -2,7 +2,7 @@
 
 ## Overview
 
-[LoRA(Low-Rank Adaptation)](../lora/) models are small Stable Diffusion models that apply tiny changes to standard checkpoint models. They are usually 10 to 100 times smaller than checkpoint models. That makes them very attractive to people having an extensive collection of models.
+[LoRA(Low-Rank Adaptation)](../adaptation/lora/) models are small Stable Diffusion models that apply tiny changes to standard checkpoint models. They are usually 10 to 100 times smaller than checkpoint models. That makes them very attractive to people having an extensive collection of models.
 
 ## Why we need it?
 
@@ -42,7 +42,7 @@ It is the weight applied to the LoRA model. The defaults is 1. Setting it to 0 d
 
 Here we can use the model button
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p>Source: Stable Diffusion Art</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption><p>Source: Stable Diffusion Art</p></figcaption></figure>
 
 
 
@@ -64,7 +64,7 @@ Similar to [embeddings](embeddings.md), you can use **multiple LoRA models** at 
 
 ### Add the LoRA to the prompt
 
-In AUTOMATIC1111, the LoRA phrase is not part of the prompt. It will be removed after the LoRA model is applied. That means you cannot use [prompt syntax](../langchain/prompts.md) like \[keyword1:keyword2: 0.8] with them.
+In AUTOMATIC1111, the LoRA phrase is not part of the prompt. It will be removed after the LoRA model is applied. That means you cannot use [prompt syntax](../chain/langchain/prompts.md) like \[keyword1:keyword2: 0.8] with them.
 
 ## Credit
 

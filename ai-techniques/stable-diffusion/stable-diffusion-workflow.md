@@ -34,7 +34,7 @@ Step2 and 3 are repeated for a <mark style="color:red;">**certain number of samp
 
 Finally, [the decoder of VAE converts the latent image back to pixel space](vae.md#variational-autoencoder). This is the image you get after running Stable Diffusion.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### The process of the image evolves in each sampling step
 
@@ -44,7 +44,7 @@ Finally, [the decoder of VAE converts the latent image back to pixel space](vae.
 
 The image changes from noisy to clean. _<mark style="color:red;">**How about if the noise predictor not working well in the initial steps?**</mark>_ This <mark style="color:red;">**is only partly true**</mark>. The real reason is we try to get to an expected noise at each sampling step. This is called the _<mark style="color:blue;">**noise schedule**</mark>_. Here is an example.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>A noise schedule for 15 sampling steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>A noise schedule for 15 sampling steps.</p></figcaption></figure>
 
 <mark style="color:green;">**The noise schedule is something we define**</mark>. We can choose to _<mark style="color:blue;">**subtract the same amount of noise at each step**</mark>_. <mark style="color:blue;">**Or**</mark> we can _<mark style="color:blue;">**subtract more in the beginning**</mark>_, <mark style="color:purple;">**like above**</mark>. _<mark style="color:orange;">**The sampler subtracts just enough noise in each step to reach the expected noise in the next step**</mark>_. That's what you see in the [step-by-step image](stable-diffusion-workflow.md#the-process-of-the-image-evolves-in-each-sampling-step).
 
@@ -54,7 +54,7 @@ Image-to-image is a method first proposed in the [SDEdit ](https://arxiv.org/abs
 
 <mark style="color:red;">**An input image**</mark> and <mark style="color:red;">**a text prompt**</mark> _<mark style="color:blue;">**are supplied as the input**</mark>_ in image-to-image. The generated image will be conditioned by both the input image and text prompt. For example, using this amateur drawing and the prompt "photo of perfect green apple with stem, water droplets, dramatic lighting" as inputs, image-to-image can turn it into a professional drawing:
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>Image-to-image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption><p>Image-to-image</p></figcaption></figure>
 
 ### Step1
 
@@ -86,7 +86,7 @@ Step3 3 and 4 are repeated for a certain number of sampling steps, for example, 
 
 Finally, the decoder of VAE converts the latent image back to pixel space. This is the image you get after running image-to-image.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 All _<mark style="color:blue;">**image-to-image does is to set the initial latent image**</mark>_ with _<mark style="color:red;">**a bit of noise**</mark>_ and _<mark style="color:red;">**a bit of input image**</mark>_. Setting _<mark style="color:green;">**denoising strength to 1 is equivalent to text-to-image**</mark>_ because the _<mark style="color:yellow;">**initial latent image is entirely random noise**</mark>_.
 

@@ -73,7 +73,7 @@ Use the filename as part of the prompt to
 
 There’s a button between the trash and the copy buttons:
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 Click it and you will see all the embeddings that are available. They are all under the **Textual Inversion** tab.
 

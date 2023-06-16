@@ -12,7 +12,4 @@ Nowadays, many people show their QR Codes created with SD. Those QR codes were g
 
 ControlNet is a neural network model for controlling Stable Diffusion models. We can use ControlNet along with any [Stable Diffusion](./) models.
 
-More for [ControlNet](controlnet/)
-
-\[#Todo]
-
+More detail for [ControlNet](controlnet/)
