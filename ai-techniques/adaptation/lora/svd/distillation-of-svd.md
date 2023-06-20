@@ -16,15 +16,11 @@ In the context of SVD, refers to the process of approximating a given matrix usi
 
 The goal of SVD distillation is to find a low-rank approximation that captures the most important patterns and structures in the original matrix while reducing computational complexity and storage requirements.
 
-
-
 ### Working process
 
 The distillation of SVD involves selecting a subset of the largest singular values and their corresponding singular vectors to form a reduced-rank approximation of the original matrix.
 
 By discarding the smaller singular values and their associated vectors, we can effectively compress the information in the matrix while retaining the most significant components.
-
-
 
 Follows:
 
@@ -33,11 +29,9 @@ Follows:
 3. <mark style="color:purple;">**Truncate singular values and vectors**</mark>: Keep only the top-k singular values and their corresponding singular vectors from both the left and right singular vector matrices. Discard the rest.
 4. <mark style="color:purple;">**Reconstruct the approximation**</mark>: Form a lower-rank approximation of the original matrix by multiplying the retained singular values, left singular vectors, and the transpose of the retained right singular vectors.
 
-The resulting approximation matrix captures the dominant patterns and structure of the original matrix using fewer dimensions.&#x20;
+The resulting approximation matrix captures the dominant patterns and structure of the original matrix using fewer dimensions.
 
 The level of approximation _<mark style="color:red;">**depends**</mark>_ on the number of singular values <mark style="color:red;">**retained**</mark>, with higher-rank approximations being more faithful to the original matrix but requiring more storage and computational resources.
-
-
 
 ### SVD distillation finds applications
 
@@ -56,4 +50,3 @@ It is important to note that the choice of the rank, k, for the approximation is
 A higher rank retains more information but increases computational complexity and storage requirements, while a lower rank provides greater compression but sacrifices some level of accuracy.
 
 The appropriate rank selection depends on the specific application and the balance desired between accuracy and efficiency.
-

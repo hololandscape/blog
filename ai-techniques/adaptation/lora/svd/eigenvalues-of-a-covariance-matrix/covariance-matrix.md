@@ -30,10 +30,9 @@ Where:
 ### The important properties of the covariance matrix
 
 1. <mark style="color:green;">**Symmetry**</mark>: The covariance matrix is always symmetric because cov(Xᵢ, Xⱼ) = cov(Xⱼ, Xᵢ).
-2. <mark style="color:green;">**Diagonal elements**</mark>: The diagonal elements of the covariance matrix represent the variances of  the individual variables: cov(Xᵢ, Xᵢ) = var(Xᵢ).
+2. <mark style="color:green;">**Diagonal elements**</mark>: The diagonal elements of the covariance matrix represent the variances of the individual variables: cov(Xᵢ, Xᵢ) = var(Xᵢ).
 3. <mark style="color:green;">**Positive semi-definiteness**</mark>: The covariance matrix is positive semi-definite, which means that its eigenvalues are non-negative.
 
 ### Summary
 
 The covariance matrix is used to capture the relationships and dependencies between variables in multivariate data.
-

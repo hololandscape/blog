@@ -8,7 +8,7 @@ _<mark style="color:red;">**Denoising strength controls how much respect the fin
 
 Set to a low value if you want small change and a high value if you want big change.
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p>Changing denoising strength. Set to low value if you want small change and high value if you want big change.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption><p>Changing denoising strength. Set to low value if you want small change and high value if you want big change.</p></figcaption></figure>
 
 ## Credit
 

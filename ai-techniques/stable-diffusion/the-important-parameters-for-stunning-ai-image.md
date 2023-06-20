@@ -22,7 +22,7 @@ Below are a few examples of increasing the CFG scale with the same random seed. 
 
 <mark style="color:red;">**Recommendation**</mark>: Starts with 7. (Increase if you want it to follow your prompt more)
 
-<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Higher CFG scale adheres more to the prompt.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption><p>Higher CFG scale adheres more to the prompt.</p></figcaption></figure>
 
 ## Sampling steps
 
@@ -30,23 +30,23 @@ Below are a few examples of increasing the CFG scale with the same random seed. 
 
 _<mark style="color:red;">**Recommendation: 20**</mark>_
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>Increasing sampling steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Increasing sampling steps.</p></figcaption></figure>
 
 ## Sampling methods
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 There is a variety of sampling methods you can choose, depending on what GUI you are using. They are different methods for solving diffusion equations. They are supposed to give the same result but could be slightly different due numerical bias. The only criteria is the image looks good, _<mark style="color:red;">**accuracy of the method should not be your concern.**</mark>_
 
 Not all methods are created equal. Below are the processing time of various methods.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Rendering time for 20 steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Rendering time for 20 steps.</p></figcaption></figure>
 
 _<mark style="color:red;">**Recommendation: Euler**</mark>_
 
 ## Seed
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption><p>Seed dialog box</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>Seed dialog box</p></figcaption></figure>
 
 The random seed _<mark style="color:blue;">**determines the initial noise pattern and hence the final image.**</mark>_
 
@@ -68,11 +68,11 @@ _<mark style="color:red;">**Recommendation: Set batch size to 4 or 8.**</mark>_
 
 ## Restore faces
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 Stable Diffusion is that it often has issues with faces and eyes. <mark style="color:red;">**Restore faces**</mark> is <mark style="color:red;">**a post-processing method**</mark> applied to images using AI trained specifically to <mark style="color:red;">**correct faces.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 _<mark style="color:red;">**Recommendation: Turn restore faces on when you generate images with faces.**</mark>_
 

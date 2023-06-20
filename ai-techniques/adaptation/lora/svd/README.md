@@ -6,9 +6,9 @@ description: Singular Value Decomposition(A mathematical technique)
 
 ### What is SVD?
 
-Singular value decomposition (SVD) is a **matrix factorization technique** that can be used to <mark style="color:green;">**reduce the dimensionality,**</mark>  denoise, and visualize data. It is a fundamental technique in machine learning and data science.
+Singular value decomposition (SVD) is a **matrix factorization technique** that can be used to <mark style="color:green;">**reduce the dimensionality,**</mark> denoise, and visualize data. It is a fundamental technique in machine learning and data science.
 
-It works by decomposing a matrix into three matrices:&#x20;
+It works by decomposing a matrix into three matrices:
 
 * A diagonal matrix of singular values
 * A matrix of left singular vectors
@@ -32,7 +32,7 @@ The singular values in <mark style="color:red;">**Σ are arranged in descending 
 
 ### SVD Works Detail
 
-&#x20;The _**left**_ and _**right**_ singular vectors are the eigenvectors of the covariance matrix.
+The _**left**_ and _**right**_ singular vectors are the eigenvectors of the covariance matrix.
 
 #### Singular values
 
@@ -46,8 +46,6 @@ The left singular vectors are the eigenvectors of the _<mark style="color:purple
 
 The right singular vectors are the eigenvectors of the _<mark style="color:purple;">**covariance matrix transposed**</mark>_ corresponding to the singular values. The right singular vectors are arranged in the same order as the singular values. The right singular vector corresponding to the first singular value is the direction of the first principal component, the right singular vector corresponding to the second singular value is the direction of the second principal component, and so on.
 
-
-
 ### Reducing the dimensionality
 
 SVD can be used to reduce the dimensionality of a dataset by projecting the data onto a _**lower-dimensional subspace**_. The subspace <mark style="color:purple;">**is spanned**</mark> by the <mark style="color:purple;">**left singular vectors**</mark> corresponding to the largest singular values. The <mark style="color:purple;">**smaller**</mark> singular values <mark style="color:purple;">**are discarded**</mark>, as they <mark style="color:purple;">**account**</mark> for <mark style="color:purple;">**less**</mark> of the variance of the data.
@@ -55,8 +53,3 @@ SVD can be used to reduce the dimensionality of a dataset by projecting the data
 ### Denoising a dataset
 
 SVD can also be used to denoise a dataset. The noise in the data is typically concentrated in the directions of the smaller singular values. By discarding the smaller singular values, the noise in the data can be significantly reduced.
-
-
-
-
-

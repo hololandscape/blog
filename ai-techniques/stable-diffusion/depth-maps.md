@@ -26,7 +26,7 @@ _<mark style="color:green;">**A depth map is a simple gray scale image of the sa
 
 Here’s an example of an image and its depth map estimated by MIDaS.
 
-![](<../../.gitbook/assets/image (38).png>)![](<../../.gitbook/assets/image (72).png>)
+![](<../../.gitbook/assets/image (36).png>)![](<../../.gitbook/assets/image (68).png>)
 
 
 
@@ -36,9 +36,9 @@ Here’s an example of an image and its depth map estimated by MIDaS.
 
 Here is an example of denoising strength for both image-to-image and depth-to-image.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Original image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>Original image</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p>Comparing image-to-image and depth-to-image.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>Comparing image-to-image and depth-to-image.</p></figcaption></figure>
 
 Here we can see the image-to-image generations (top row). We ran into a problem: at low denoising strength, the image didn't change enough. At high denoising strength, we do see two wrestlers but the original composition is lost.
 
@@ -50,13 +50,13 @@ _<mark style="color:red;">**Depth-to-image resolves this problem.**</mark>_ You 
 
 If we care about preserving the original composition
 
-![](<../../.gitbook/assets/image (19).png>)![](<../../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image (19).png>)![](<../../.gitbook/assets/image (52).png>)
 
 ### Style transfer
 
 We can dial denoising strength all the way up to 1 without losing composition. That makes transforming a scene to a different style easy.
 
-![](<../../.gitbook/assets/image (1).png>)![](../../.gitbook/assets/image.png)![](<../../.gitbook/assets/image (12).png>)![](<../../.gitbook/assets/image (40).png>)
+![](<../../.gitbook/assets/image (1).png>)![](../../.gitbook/assets/image.png)![](<../../.gitbook/assets/image (12).png>)![](<../../.gitbook/assets/image (38).png>)
 
 ## Summary
 

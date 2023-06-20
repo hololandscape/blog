@@ -29,19 +29,19 @@ The noisy image gradually turns into a clear one in the picture above. The [nois
 
 At each step, the sampler's job is to **produce an image with a noise level matching the noise schedule.**
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Noise schedule for 15 sampling steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Noise schedule for 15 sampling steps.</p></figcaption></figure>
 
 What's the effect of increasing the _**number of sampling steps**_? A smaller noise reduction between each step. This helps to _<mark style="color:red;">**reduce the truncation error of the sampling**</mark>_.
 
 Compare the noise schedules of 15 steps and 30 steps below.
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p>Noise schedule for 30 sampling steps.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>Noise schedule for 30 sampling steps.</p></figcaption></figure>
 
 ## Samplers overview
 
 What are the differences between them?
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt="" width="362"><figcaption><p>Samplers in AUTOMATIC1111</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt="" width="362"><figcaption><p>Samplers in AUTOMATIC1111</p></figcaption></figure>
 
 ### Old-School ODE solvers
 

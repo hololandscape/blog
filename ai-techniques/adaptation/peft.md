@@ -18,9 +18,6 @@ Get comparable performance to full finetuning by adapting LLMs to downstream tas
 
 PEFT methods only fine-tune a small number of (extra) model parameters, significantly decreasing computational and storage costs
 
-
-
 ### Reference
 
 [https://huggingface.co/docs/peft/index#peft](https://huggingface.co/docs/peft/index#peft)
-

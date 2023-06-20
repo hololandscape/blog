@@ -4,8 +4,6 @@
 The eigenvalues of a covariance matrix play a crucial role in understanding the structure and properties of the data represented by the matrix.
 {% endhint %}
 
-
-
 ### Background Information
 
 In statistics, <mark style="color:red;">**a covariance matrix is a square matrix that summarizes the pairwise covariances**</mark> between variables in a dataset. If you have a dataset with n variables, the covariance matrix will be an n x n matrix. The element in the <mark style="color:red;">**i-th row and j-th column**</mark> represents the <mark style="color:green;">**covariance**</mark> <mark style="color:red;">**between variables i and j.**</mark>
@@ -14,13 +12,9 @@ In statistics, <mark style="color:red;">**a covariance matrix is a square matrix
 
 Now, the eigenvalues of a covariance matrix provide information about the _<mark style="color:green;">**variability or spread**</mark>_ of the data along the principal components. <mark style="color:red;">**Principal components are**</mark> the directions in which the data vary the most. <mark style="color:green;">**The eigenvalues quantify**</mark> the amount of variance explained by each principal component.
 
-
-
 ### What do eigenvalues and eigenvectors represent?
 
 When you calculate the eigenvalues of a covariance matrix, you are essentially <mark style="color:green;">**finding the scaling factors for each eigenvector**</mark>. The _<mark style="color:purple;">**eigenvectors**</mark>_, on the other hand, _<mark style="color:purple;">**represent the directions along which the data varies the most.**</mark>_
-
-
 
 ### The important properties of eigenvalues of a covariance matrix
 
@@ -32,10 +26,3 @@ When you calculate the eigenvalues of a covariance matrix, you are essentially <
 ### Summary
 
 Eigenvalues and eigenvectors provide a way to <mark style="color:purple;">**transform the original variables into a new set of variables**</mark> called principal components. The <mark style="color:green;">**principal components can be used**</mark> to reduce the dimensionality of the data, visualize the data in a lower-dimensional space, or identify the most important features or patterns in the dataset.
-
-
-
-
-
-
-

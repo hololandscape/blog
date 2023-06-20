@@ -14,7 +14,7 @@ LoRA is a low-rank approximation algorithm that uses SVD to reduce the dimension
 
 [Introduce SVD](svd/)
 
-### Why it is helpful for the training of a personal AI model&#x20;
+### Why it is helpful for the training of a personal AI model
 
 LoRA is a technique for adapting large language models (LLMs) to specific tasks. LoRA reduces the number of trainable parameters in an LLM by learning pairs of `rank-decomposition matrices` while `freezing` the original weights. This vastly reduces the storage requirement for LLMs adapted to specific tasks and enables efficient task-switching during deployment all without introducing inference latency. LoRA also outperforms several other adaptation methods including `adapter`, `prefix-tuning`, and `fine-tuning`.
 
@@ -30,8 +30,6 @@ Once the `low-rank matrices` are constructed, they are used to adapt the LLM to 
 * [x] [**Matrix Factorization**](matrix-factorization.md)
 * [x] [**Checkpoint**](checkpoint.md)
 
-
-
 ### Python Code implementation for LoRA
 
 [**https://github.com/microsoft/LoRA**](https://github.com/microsoft/LoRA)
@@ -39,8 +37,3 @@ Once the `low-rank matrices` are constructed, they are used to adapt the LLM to 
 ### Paper(PDF)
 
 [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)
-
-
-
-
-

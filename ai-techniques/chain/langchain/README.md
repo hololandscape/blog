@@ -1,9 +1,10 @@
 ---
 description: >-
-  lang-chain is a technique for adapting large language models (LLMs) to specific tasks.
+  lang-chain is a technique for adapting large language models (LLMs) to
+  specific tasks.
 ---
 
-# 🤟 lang-chain
+# 🤟 LangChain
 
 ## Introduction for Lang Chain
 
@@ -15,6 +16,6 @@ It rely on online llm models and will need api token if needed
 
 Something like document analysis and summarization, chatbots, and code analysis
 
-
 ## Reference
+
 * https://python.langchain.com/
