@@ -103,6 +103,7 @@
   * [💻 llama.cpp](ai-techniques/large-language-model/llama.cpp.md)
   * [🎞 Measuring model quality](ai-techniques/large-language-model/measuring-model-quality.md)
   * [🥞 Type for NNC](ai-techniques/large-language-model/type-for-nnc.md)
+  * [🥞 Token](ai-techniques/large-language-model/token.md)
 
 ## 🎹 Music
 
