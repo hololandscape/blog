@@ -7,16 +7,16 @@
 ## 🎾 Courses Collection
 
 * [🍎 MIT Algorithm Courses](courses-collection/mit-algorithm-courses/README.md)
-  * [0 0 0 MIT 18.01](courses-collection/mit-algorithm-courses/mit-18.01/README.md)
-    * [0 0 0 Limits and continuity](courses-collection/mit-algorithm-courses/mit-18.01/limits.md)
-    * [1 1 1 Derivatives](courses-collection/mit-algorithm-courses/mit-18.01/derivatives.md)
-    * [3 3 3 Integrals](courses-collection/mit-algorithm-courses/mit-18.01/integrals.md)
-  * [1 1 1 MIT 6.042J](courses-collection/mit-algorithm-courses/mit-6.042j.md)
+  * [MIT 18.01](courses-collection/mit-algorithm-courses/mit-18.01/README.md)
+    * [Limits and continuity](courses-collection/mit-algorithm-courses/mit-18.01/limits.md)
+    * [Derivatives](courses-collection/mit-algorithm-courses/mit-18.01/derivatives.md)
+    * [Integrals](courses-collection/mit-algorithm-courses/mit-18.01/integrals.md)
+  * [MIT 6.042J](courses-collection/mit-algorithm-courses/mit-6.042j.md)
     * [🔢 Number Theory](courses-collection/mit-algorithm-courses/mit-6.042j/number-theory.md)
     * [📊 Graph Theory](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/README.md)
       * [🌴 Graph and Trees](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/graph-and-trees.md)
       * [🌲 Shortest Paths and Minimum Spanning Trees](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/shortest-paths-and-minimum-spanning-trees.md)
-  * [2 2 2 MIT 6.006](courses-collection/mit-algorithm-courses/mit-6.006/README.md)
+  * [MIT 6.006](courses-collection/mit-algorithm-courses/mit-6.006/README.md)
     * [Intro and asymptotic notation](courses-collection/mit-algorithm-courses/mit-6.006/intro-and-asymptotic-notation.md)
     * [Sorting and Trees](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/README.md)
       * [Sorting](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/sorting.md)
@@ -26,13 +26,13 @@
     * [Shortest Paths](courses-collection/mit-algorithm-courses/mit-6.006/shortest-paths.md)
     * [Dynamic Programming](courses-collection/mit-algorithm-courses/mit-6.006/dynamic-programming.md)
     * [Advanced](courses-collection/mit-algorithm-courses/mit-6.006/advanced.md)
-  * [3 3 3 MIT 6.046J](courses-collection/mit-algorithm-courses/mit-6.046j/README.md)
+  * [MIT 6.046J](courses-collection/mit-algorithm-courses/mit-6.046j/README.md)
     * [Divide and conquer](courses-collection/mit-algorithm-courses/mit-6.046j/divide-and-conquer.md)
     * [Dynamic programming](courses-collection/mit-algorithm-courses/mit-6.046j/dynamic-programming.md)
     * [Greedy algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/greedy-algorithms.md)
     * [Graph algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/graph-algorithms.md)
 
-## 👩💻 👩Freesoftware
+## 👩Freesoftware
 
 * [🍉 The GNU Hurd](freesoftware/the-gnu-hurd/README.md)
   * [😄 The files extension](freesoftware/the-gnu-hurd/the-files-extension.md)
@@ -43,7 +43,7 @@
     * [Different ways in binding](freesoftware/the-gnu-hurd/cgo/different-ways-in-binding.md)
   * [🛃 Rust FFI](freesoftware/the-gnu-hurd/rust-ffi.md)
 
-## 🧘♀ 🧘 Data Structure
+## 🧘Data Structure
 
 * [🐭 Data structures](data-structure/data-structures/README.md)
   * [🪄 Linear Data Structures](data-structure/data-structures/linear-data-structures.md)
@@ -71,11 +71,11 @@
         * [🏪 Covariance Matrix](ai-techniques/adaptation/lora/svd/eigenvalues-of-a-covariance-matrix/covariance-matrix.md)
     * [🛫 Checkpoint](ai-techniques/adaptation/lora/checkpoint.md)
   * [🎨 PEFT](ai-techniques/adaptation/peft.md)
-* [🙋♂ 🙋Training](ai-techniques/training/README.md)
+* [🙋Training](ai-techniques/training/README.md)
   * [🛻 Training with QLoRA](ai-techniques/training/training-with-qlora.md)
   * [🦌 Deep Speed](ai-techniques/training/deepspeed.md)
 * [🧠 Stable Diffusion](ai-techniques/stable-diffusion/README.md)
-  * [🤼♀ 🤼♀ The important parameters for stunning AI image](ai-techniques/stable-diffusion/the-important-parameters-for-stunning-ai-image.md)
+  * [🤼 The important parameters for stunning AI image](ai-techniques/stable-diffusion/the-important-parameters-for-stunning-ai-image.md)
   * [📼 Stable Diffusion v1 vs v2](ai-techniques/stable-diffusion/stable-diffusion-v1-vs-v2.md)
   * [🚬 Classifier Free Guidance](ai-techniques/stable-diffusion/classifier-free-guidance.md)
   * [⚜ Denoising strength](ai-techniques/stable-diffusion/denoising-strength.md)
@@ -96,7 +96,7 @@
   * [🍰 Stable Diffusion Art](ai-techniques/stable-diffusion/stable-diffusion-art.md)
 * [🦙 Large Language Model](ai-techniques/large-language-model/README.md)
   * [☺ SMID](ai-techniques/large-language-model/smid.md)
-  * [👨🌾 👨🌾 ARM NEON](ai-techniques/large-language-model/arm-neon.md)
+  * [👨 ARM NEON](ai-techniques/large-language-model/arm-neon.md)
   * [🍊 Metal](ai-techniques/large-language-model/metal.md)
   * [🏁 BLAS](ai-techniques/large-language-model/blas.md)
   * [🍉 ggml](ai-techniques/large-language-model/ggml.md)
