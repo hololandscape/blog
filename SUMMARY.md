@@ -95,7 +95,6 @@
     * [🪡 Settings Explained](ai-techniques/stable-diffusion/controlnet/settings-explained.md)
     * [🐳 ControlNet with models](ai-techniques/stable-diffusion/controlnet/controlnet-with-models.md)
   * [⚾ Diffusion in image](ai-techniques/stable-diffusion/diffusion-in-image.md)
-  * [🍰 Stable Diffusion Art](ai-techniques/stable-diffusion/stable-diffusion-art.md)
 * [🦙 Large Language Model](ai-techniques/large-language-model/README.md)
   * [☺ SMID](ai-techniques/large-language-model/smid.md)
   * [👨 ARM NEON](ai-techniques/large-language-model/arm-neon.md)

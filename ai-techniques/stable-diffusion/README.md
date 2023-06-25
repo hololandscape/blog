@@ -4,7 +4,6 @@
 **Big thanks for** [**Stable Diffusion Art**](https://twitter.com/stable\_diff\_art)**'s article. All the contents come from Stable Diffusion Art's articles. I can't remember these things without writing them down, so I write all of them. And I will correct some of the parts of them and add more personal thinking in the future (14/06/2023).**&#x20;
 {% endhint %}
 
-* [Stable Diffusion Art](stable-diffusion-art.md)
 * [ControlNet](controlnet/)
 * [Stable Diffusion v1 vs v2](stable-diffusion-v1-vs-v2.md)
 * [Diffusion in image](diffusion-in-image.md)
