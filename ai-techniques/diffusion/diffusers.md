@@ -16,20 +16,5 @@ It has three main componenets:
 * Interchangeable `noise schedulers` for balancing trade-offs between generation speed and quality
 * Pretrained `models` that can be used as building blocks, and combined with schedulers, for creating end-to-end diffusion systems
 
-## Type of the pipline(currently from diffusers)
-Type|Description
----|---
-img2img-text|image to image text guided generation
-un-audio-gen|unconditional Audio generation
-image|image generation
-img2img|image to image generation
-t-2-img|text to image
-s-r-img2img|super resolution img2img
-un-img-gen|unconditional image generation
-img-g-img|image guided image inpainting
-
-
-
-
 # Reference
 [Huggingface diffusers](https://huggingface.co/docs/diffusers/index)
