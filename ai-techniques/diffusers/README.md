@@ -1,3 +1,7 @@
+---
+description: Hugging face diffusers and it allows one to customize the inage generation pipeline.
+---
+
 # Diffusers
 
 ## Overview
@@ -18,3 +22,4 @@ It has three main componenets:
 
 # Reference
 [Huggingface diffusers](https://huggingface.co/docs/diffusers/index)
+[Diffusers intro](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb)
