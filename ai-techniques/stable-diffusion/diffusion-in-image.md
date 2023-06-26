@@ -10,7 +10,11 @@ description: Diffusion processing in image
 Its math looks very much like diffusion in physics, so it was called diffusion model.
 {% endhint %}
 
-Stable Diffusion belongs to a <mark style="color:red;">**class of deep learning models called diffusion models**</mark>. They are generative models, meaning they are designed to generate new data like what they have seen in training. In the case of Stable diffusion, the data are images.
+Stable Diffusion is a text-to-image latent diffusion model. It is called a latent diffusion model because it works with a lower-dimensinal representation of the image instead of the actual pixel space, which makes it more memory efficient.
+
+The encoder compresses the image into a smaller representation, and a decoder to convert the compresses representation back into an image.
+
+For text-to-image models, you'll need a tokenizer and an encoder to generate text embeddings.
 
 ### What can Stable Diffusion do?
 

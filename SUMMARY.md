@@ -38,7 +38,7 @@
   * [😄 The files extension](freesoftware/the-gnu-hurd/the-files-extension.md)
   * [📽 Tutorial for starting](freesoftware/the-gnu-hurd/tutorial-for-starting.md)
   * [🚚 Continue Working for the Hurd](freesoftware/the-gnu-hurd/continue-working-for-the-hurd.md)
-  * [🚴♂ 🚴 cgo](freesoftware/the-gnu-hurd/cgo/README.md)
+  * [🚴 cgo](freesoftware/the-gnu-hurd/cgo/README.md)
     * [Statically VS Dynamically binding](freesoftware/the-gnu-hurd/cgo/statically-vs-dynamically-binding.md)
     * [Different ways in binding](freesoftware/the-gnu-hurd/cgo/different-ways-in-binding.md)
   * [🛃 Rust FFI](freesoftware/the-gnu-hurd/rust-ffi.md)
@@ -61,7 +61,6 @@
     * [Memory](ai-techniques/chain/langchain/memory.md)
     * [Indexes](ai-techniques/chain/langchain/indexes.md)
 * [🍡 Adaptation](ai-techniques/adaptation/README.md)
-  * [❓ QLoRA](ai-techniques/adaptation/qlora.md)
   * [🎁 LoRA](ai-techniques/adaptation/lora/README.md)
     * [ℹ Matrix Factorization](ai-techniques/adaptation/lora/matrix-factorization.md)
     * [📀 SVD](ai-techniques/adaptation/lora/svd/README.md)
@@ -75,8 +74,10 @@
   * [🛻 Training with QLoRA](ai-techniques/training/training-with-qlora.md)
   * [🦌 Deep Speed](ai-techniques/training/deepspeed.md)
 * [🧠 Stable Diffusion](ai-techniques/stable-diffusion/README.md)
-  * [🤼 The important parameters for stunning AI image](ai-techniques/stable-diffusion/the-important-parameters-for-stunning-ai-image.md)
+  * [🤑 Stable Diffusion model](ai-techniques/stable-diffusion/stable-diffusion-model.md)
   * [📼 Stable Diffusion v1 vs v2](ai-techniques/stable-diffusion/stable-diffusion-v1-vs-v2.md)
+  * [🤼 The important parameters for stunning AI image](ai-techniques/stable-diffusion/the-important-parameters-for-stunning-ai-image.md)
+  * [⚾ Diffusion in image](ai-techniques/stable-diffusion/diffusion-in-image.md)
   * [🚬 Classifier Free Guidance](ai-techniques/stable-diffusion/classifier-free-guidance.md)
   * [⚜ Denoising strength](ai-techniques/stable-diffusion/denoising-strength.md)
   * [👷 Stable Diffusion workflow](ai-techniques/stable-diffusion/stable-diffusion-workflow.md)
@@ -85,15 +86,12 @@
   * [📋 CLIP](ai-techniques/stable-diffusion/clip.md)
   * [⚕ Embeddings](ai-techniques/stable-diffusion/embeddings.md)
   * [🕠 VAE](ai-techniques/stable-diffusion/vae.md)
-  * [🤑 Stable Diffusion model](ai-techniques/stable-diffusion/stable-diffusion-model.md)
   * [💥 Conditioning](ai-techniques/stable-diffusion/conditioning.md)
   * [🍁 Diffusion sampling/samplers](ai-techniques/stable-diffusion/diffusion-sampling-samplers.md)
   * [🥠 Prompt](ai-techniques/stable-diffusion/prompt.md)
   * [😄 ControlNet](ai-techniques/stable-diffusion/controlnet/README.md)
     * [🪡 Settings Explained](ai-techniques/stable-diffusion/controlnet/settings-explained.md)
     * [🐳 ControlNet with models](ai-techniques/stable-diffusion/controlnet/controlnet-with-models.md)
-  * [⚾ Diffusion in image](ai-techniques/stable-diffusion/diffusion-in-image.md)
-  * [🍰 Stable Diffusion Art](ai-techniques/stable-diffusion/stable-diffusion-art.md)
 * [🦙 Large Language Model](ai-techniques/large-language-model/README.md)
   * [☺ SMID](ai-techniques/large-language-model/smid.md)
   * [👨 ARM NEON](ai-techniques/large-language-model/arm-neon.md)
@@ -104,6 +102,12 @@
   * [🎞 Measuring model quality](ai-techniques/large-language-model/measuring-model-quality.md)
   * [🥞 Type for NNC](ai-techniques/large-language-model/type-for-nnc.md)
   * [🥞 Token](ai-techniques/large-language-model/token.md)
+* [diffusers](ai-techniques/diffusers/README.md)
+  * [Deconstruct the Stable Diffusion pipeline](ai-techniques/diffusers/deconstruct_sd_pipeline.md)
+
+## Implementing
+
+* [diffusers](implementing/diffusers/README.md)
 
 ## 🎹 Music
 
