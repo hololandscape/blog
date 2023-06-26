@@ -1,6 +1,6 @@
 # Demo for deconstructing the Stable Diffusion pipeline
 
-{% embed url="https://www.kaggle.com/code/aisuko/constructing-diffusers-sd-pipeline?kernelSessionId=134872428"%}
+{% embed url="https://github.com/hololandscape/notebooks/tree/main"%}
 Deconstruct the Stable Diffusion pipeline
 {% endembed %}
 
