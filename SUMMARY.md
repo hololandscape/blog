@@ -39,9 +39,12 @@
   * [📽 Tutorial for starting](freesoftware/the-gnu-hurd/tutorial-for-starting.md)
   * [🚚 Continue Working for the Hurd](freesoftware/the-gnu-hurd/continue-working-for-the-hurd.md)
   * [🚴 cgo](freesoftware/the-gnu-hurd/cgo/README.md)
-    * [Statically VS Dynamically binding](freesoftware/the-gnu-hurd/cgo/statically-vs-dynamically-binding.md)
-    * [Different ways in binding](freesoftware/the-gnu-hurd/cgo/different-ways-in-binding.md)
+    * [👯‍♀️ Statically VS Dynamically binding](freesoftware/the-gnu-hurd/cgo/statically-vs-dynamically-binding.md)
+    * [🧌 Different ways in binding](freesoftware/the-gnu-hurd/cgo/different-ways-in-binding.md)
+    * [👨‍💻 Segfault](freesoftware/the-gnu-hurd/cgo/segmentation-fault.md)
   * [🛃 Rust FFI](freesoftware/the-gnu-hurd/rust-ffi.md)
+* [🧚🏻‍♂️ Programming](freesoftware/programming/README.md)
+  * [✏️ Introduction to programming](freesoftware/programming/introduction-to-6811-programming.md)
 
 ## 🧘Data Structure
 
@@ -108,6 +111,7 @@
 ## Implementing
 
 * [👨‍💻 diffusers](implementing/diffusers/README.md)
+  * [📖 The Annotated Diffusion Model](implementing/diffusers/the_annotated_diffusion_model.md)
 
 ## 🎹 Music
 
