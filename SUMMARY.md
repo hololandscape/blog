@@ -112,10 +112,18 @@
 * [🐹 diffusers](ai-techniques/diffusers/README.md)
   * [💪 Deconstruct the Stable Diffusion pipeline](ai-techniques/diffusers/deconstruct_sd_pipeline.md)
 
-## Implementing
+## 🎹 Implementing
 
 * [👨‍💻 diffusers](implementing/diffusers/README.md)
   * [📖 The Annotated Diffusion Model](implementing/diffusers/the_annotated_diffusion_model.md)
+
+## 🧩 Trending
+
+* [📚 Trending](trending/README.md)
+  * [📖 Vector database](trending//vector_database/README.md)
+  * [📖 Programming Languages](trending/programming_languages/README.md)
+    * [📖 Go & Rust manage their memories](trending/programming_languages/go_rust_manage_their_memories.md)
+
 
 ## 🎹 Music
 
