@@ -4,33 +4,6 @@
 
 * [🚀 About](README.md)
 
-## 🎾 Courses Collection
-
-* [🍎 MIT Algorithm Courses](courses-collection/mit-algorithm-courses/README.md)
-  * [MIT 18.01](courses-collection/mit-algorithm-courses/mit-18.01/README.md)
-    * [Limits and continuity](courses-collection/mit-algorithm-courses/mit-18.01/limits.md)
-    * [Derivatives](courses-collection/mit-algorithm-courses/mit-18.01/derivatives.md)
-    * [Integrals](courses-collection/mit-algorithm-courses/mit-18.01/integrals.md)
-  * [MIT 6.042J](courses-collection/mit-algorithm-courses/mit-6.042j.md)
-    * [🔢 Number Theory](courses-collection/mit-algorithm-courses/mit-6.042j/number-theory.md)
-    * [📊 Graph Theory](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/README.md)
-      * [🌴 Graph and Trees](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/graph-and-trees.md)
-      * [🌲 Shortest Paths and Minimum Spanning Trees](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/shortest-paths-and-minimum-spanning-trees.md)
-  * [MIT 6.006](courses-collection/mit-algorithm-courses/mit-6.006/README.md)
-    * [Intro and asymptotic notation](courses-collection/mit-algorithm-courses/mit-6.006/intro-and-asymptotic-notation.md)
-    * [Sorting and Trees](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/README.md)
-      * [Sorting](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/sorting.md)
-      * [Trees](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/trees.md)
-    * [Hashing](courses-collection/mit-algorithm-courses/mit-6.006/hashing.md)
-    * [Graphs](courses-collection/mit-algorithm-courses/mit-6.006/graphs.md)
-    * [Shortest Paths](courses-collection/mit-algorithm-courses/mit-6.006/shortest-paths.md)
-    * [Dynamic Programming](courses-collection/mit-algorithm-courses/mit-6.006/dynamic-programming.md)
-    * [Advanced](courses-collection/mit-algorithm-courses/mit-6.006/advanced.md)
-  * [MIT 6.046J](courses-collection/mit-algorithm-courses/mit-6.046j/README.md)
-    * [Divide and conquer](courses-collection/mit-algorithm-courses/mit-6.046j/divide-and-conquer.md)
-    * [Dynamic programming](courses-collection/mit-algorithm-courses/mit-6.046j/dynamic-programming.md)
-    * [Greedy algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/greedy-algorithms.md)
-    * [Graph algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/graph-algorithms.md)
 
 ## 👩Freesoftware
 
@@ -46,13 +19,6 @@
 * [🧚🏻‍♂️ Programming](freesoftware/programming/README.md)
   * [✏️ Introduction to programming](freesoftware/programming/introduction-to-6811-programming.md)
 
-## 🧘Data Structure
-
-* [🐭 Data structures](data-structure/data-structures/README.md)
-  * [🪄 Linear Data Structures](data-structure/data-structures/linear-data-structures.md)
-  * [🌴 Trees](data-structure/data-structures/trees.md)
-  * [🎧 Hash-based Structures](data-structure/data-structures/hash-based-structures.md)
-  * [📊 Graphs](data-structure/data-structures/graphs.md)
 
 ## 🛤 AI techniques
 
@@ -112,10 +78,12 @@
 * [🐹 diffusers](ai-techniques/diffusers/README.md)
   * [💪 Deconstruct the Stable Diffusion pipeline](ai-techniques/diffusers/deconstruct_sd_pipeline.md)
 
+
 ## 🎹 Implementing
 
 * [👨‍💻 diffusers](implementing/diffusers/README.md)
   * [📖 The Annotated Diffusion Model](implementing/diffusers/the_annotated_diffusion_model.md)
+
 
 ## 🧩 Trending
 
@@ -123,6 +91,46 @@
   * [📖 Vector database](trending//vector_database/README.md)
   * [📖 Programming Languages](trending/programming_languages/README.md)
     * [📖 Go & Rust manage their memories](trending/programming_languages/go_rust_manage_their_memories.md)
+  * [Neural Network](trending/neural_network/README.md)
+    * [🎹 Sliding window/convolutional filter](trending/neural_network/sliding_window.md)
+
+
+## 🧘Data Structure
+
+* [🐭 Data structures](data-structure/data-structures/README.md)
+  * [🪄 Linear Data Structures](data-structure/data-structures/linear-data-structures.md)
+  * [🌴 Trees](data-structure/data-structures/trees.md)
+  * [🎧 Hash-based Structures](data-structure/data-structures/hash-based-structures.md)
+  * [📊 Graphs](data-structure/data-structures/graphs.md)
+
+
+## 🎾 Courses Collection
+
+* [🍎 MIT Algorithm Courses](courses-collection/mit-algorithm-courses/README.md)
+  * [MIT 18.01](courses-collection/mit-algorithm-courses/mit-18.01/README.md)
+    * [Limits and continuity](courses-collection/mit-algorithm-courses/mit-18.01/limits.md)
+    * [Derivatives](courses-collection/mit-algorithm-courses/mit-18.01/derivatives.md)
+    * [Integrals](courses-collection/mit-algorithm-courses/mit-18.01/integrals.md)
+  * [MIT 6.042J](courses-collection/mit-algorithm-courses/mit-6.042j.md)
+    * [🔢 Number Theory](courses-collection/mit-algorithm-courses/mit-6.042j/number-theory.md)
+    * [📊 Graph Theory](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/README.md)
+      * [🌴 Graph and Trees](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/graph-and-trees.md)
+      * [🌲 Shortest Paths and Minimum Spanning Trees](courses-collection/mit-algorithm-courses/mit-6.042j/graph-theory/shortest-paths-and-minimum-spanning-trees.md)
+  * [MIT 6.006](courses-collection/mit-algorithm-courses/mit-6.006/README.md)
+    * [Intro and asymptotic notation](courses-collection/mit-algorithm-courses/mit-6.006/intro-and-asymptotic-notation.md)
+    * [Sorting and Trees](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/README.md)
+      * [Sorting](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/sorting.md)
+      * [Trees](courses-collection/mit-algorithm-courses/mit-6.006/sorting-and-trees/trees.md)
+    * [Hashing](courses-collection/mit-algorithm-courses/mit-6.006/hashing.md)
+    * [Graphs](courses-collection/mit-algorithm-courses/mit-6.006/graphs.md)
+    * [Shortest Paths](courses-collection/mit-algorithm-courses/mit-6.006/shortest-paths.md)
+    * [Dynamic Programming](courses-collection/mit-algorithm-courses/mit-6.006/dynamic-programming.md)
+    * [Advanced](courses-collection/mit-algorithm-courses/mit-6.006/advanced.md)
+  * [MIT 6.046J](courses-collection/mit-algorithm-courses/mit-6.046j/README.md)
+    * [Divide and conquer](courses-collection/mit-algorithm-courses/mit-6.046j/divide-and-conquer.md)
+    * [Dynamic programming](courses-collection/mit-algorithm-courses/mit-6.046j/dynamic-programming.md)
+    * [Greedy algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/greedy-algorithms.md)
+    * [Graph algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/graph-algorithms.md)
 
 
 ## 🎹 Music
