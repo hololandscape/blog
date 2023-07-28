@@ -18,6 +18,7 @@
   * [🛃 Rust FFI](freesoftware/the-gnu-hurd/rust-ffi.md)
 * [🧚🏻‍♂️ Programming](freesoftware/programming/README.md)
   * [✏️ Introduction to programming](freesoftware/programming/introduction-to-6811-programming.md)
+  * [- Mutable Value Semantics](freesoftware/programming/mutable_value_semantics.md)
 
 
 ## 🛤 AI techniques
