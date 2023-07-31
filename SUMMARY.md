@@ -108,8 +108,8 @@
 ## 🎾 Courses Collection
 
 * [🍎 Courses Collection](courses-collection/README.md)
-  * [Academic In IT](courses-collection/student-academic-in-it/README.md)
-    * [📝 Reflective Writing](courses-collection/student-academic-in-it/reflective-writing.md)
+  * [Academic In IT](courses-collection/academic-in-it/README.md)
+    * [📝 Reflective Writing](courses-collection/academic-in-it/reflective-writing.md)
   * [🍎 MIT Algorithm Courses](courses-collection/mit-algorithm-courses/README.md)
     * [MIT 18.01](courses-collection/mit-algorithm-courses/mit-18.01/README.md)
       * [Limits and continuity](courses-collection/mit-algorithm-courses/mit-18.01/limits.md)

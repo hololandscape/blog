@@ -83,5 +83,5 @@ At a basic level, a reflective approach involves you asking yourself the followi
 
 ## Credit
 
-[Cambridge University Study Skills](https://libguides.cam.ac.uk/reflectivepracticetoolkit/reflectivewriting#:~:text=What%20is%20reflective%20writing%3F,to%20think%20an%20experience%20through.)
-[MONASH University IT: Reflective writing](https://www.monash.edu/student-academic-success/excel-at-writing/annotated-assessment-samples/information-technology/it-reflective-writing)
+* [Cambridge University Study Skills](https://libguides.cam.ac.uk/reflectivepracticetoolkit/reflectivewriting#:~:text=What%20is%20reflective%20writing%3F,to%20think%20an%20experience%20through.)
+* [MONASH University IT: Reflective writing](https://www.monash.edu/student-academic-success/excel-at-writing/annotated-assessment-samples/information-technology/it-reflective-writing)
