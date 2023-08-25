@@ -110,8 +110,17 @@
 ## 🎾 Courses Collection
 
 * [🍎 Courses Collection](courses-collection/README.md)
-  * [Academic In IT](courses-collection/academic-in-it/README.md)
+  * [📖 Academic In IT](courses-collection/academic-in-it/README.md)
     * [📝 Reflective Writing](courses-collection/academic-in-it/reflective-writing.md)
+  * [📖 UCB](courses-collection/ucb_courses/README.md)
+    * [📖 CS 61A](courses-collection/ucb_courses/cs_61a/README.md)
+      * [📖 Computer Science](courses-collection/ucb_courses/cs_61a/computer_science.md)
+      * [📖 Scheme](courses-collection/ucb_courses/cs_61a/scheme.md)
+      * [📖 Python](courses-collection/ucb_courses/cs_61a/python.md)
+      * [📖 Data Abstraction](courses-collection/ucb_courses/cs_61a/data-abstraction.md)
+      * [📖 Object-Oriented Programming](courses-collection/ucb_courses/cs_61a/object-oriented-programming.md)
+      * [📖 Interpreters](courses-collection/ucb_courses/cs_61a/interpreters.md)
+      * [📖 Streams](courses-collection/ucb_courses/cs_61a/streams.md)
   * [🍎 MIT Algorithm Courses](courses-collection/mit-algorithm-courses/README.md)
     * [MIT 18.01](courses-collection/mit-algorithm-courses/mit-18.01/README.md)
       * [Limits and continuity](courses-collection/mit-algorithm-courses/mit-18.01/limits.md)
