@@ -93,6 +93,7 @@
   * [📖 Programming Languages](trending/programming_languages/README.md)
     * [📖 Go & Rust manage their memories](trending/programming_languages/go_rust_manage_their_memories.md)
     * [📖 Performance of Rust and Python](trending/programming_languages/performance_of_Rust.md)
+    * [📖 Rust ownership and borrowing](trending/programming_languages/rust_ob_with_hm_vec.md)
   * [Neural Network](trending/neural_network/README.md)
     * [🎹 Sliding window/convolutional filter](trending/neural_network/sliding_window.md)
   * [Quantum Machine Learning](trending/quantum_machine_learning/README.md)
