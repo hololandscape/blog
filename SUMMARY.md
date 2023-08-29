@@ -99,13 +99,13 @@
   * [Quantum Machine Learning](trending/quantum_machine_learning/README.md)
 
 
-## 🧘Data Structure
+<!-- ## 🧘Data Structure
 
 * [🐭 Data structures](data-structure/data-structures/README.md)
   * [🪄 Linear Data Structures](data-structure/data-structures/linear-data-structures.md)
   * [🌴 Trees](data-structure/data-structures/trees.md)
   * [🎧 Hash-based Structures](data-structure/data-structures/hash-based-structures.md)
-  * [📊 Graphs](data-structure/data-structures/graphs.md)
+  * [📊 Graphs](data-structure/data-structures/graphs.md) -->
 
 
 ## 🎾 Courses Collection
@@ -149,7 +149,7 @@
       * [Graph algorithms](courses-collection/mit-algorithm-courses/mit-6.046j/graph-algorithms.md)
 
 
-## 🎹 Music
+<!-- ## 🎹 Music
 
 * [🎹 Paul Mauriat](music/paul-mauriat.md)
-* [🎻 Taro Hakase](music/taro-hakase.md)
+* [🎻 Taro Hakase](music/taro-hakase.md) -->
