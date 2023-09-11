@@ -19,6 +19,8 @@
 * [🧚🏻‍♂️ Programming](freesoftware/programming/README.md)
   * [✏️ Introduction to programming](freesoftware/programming/introduction-to-6811-programming.md)
   * [- Mutable Value Semantics](freesoftware/programming/mutable_value_semantics.md)
+* [🎹 Algorithm](freesoftware/algorithm/README.md)
+  * [Two-pointer Technique](freesoftware/algorithm/two_pointer_technique.md)
 
 
 ## 🛤 AI techniques
