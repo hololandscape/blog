@@ -15,3 +15,8 @@ We do not need to learn all from the university courses. Be sure you remember al
 
 In my opinion, we should know what algorithm technique that we are using when we are trying to solve the programming issues. This is more important than solving the algorithm problem itself. And as more problems you have solved, you will know more techniques of algorithms. And you will know how to apply them to your problems.
 I believe this is the reason I failed to solve the same problems in the past.
+
+
+### The improvement of solving the algorithm problems
+
+We should know the what technique we have used to solve the problems. For example, if we are working on solving find specific element on a Array. Most of time, "we use linear search technique(algorithm)" keep it in mind rather than we use `for` here to traverse all the elements. This is the key point to improve the efficiency of solving the algorithm problems.
