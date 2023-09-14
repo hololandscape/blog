@@ -23,7 +23,8 @@
   * [Two-pointer Technique](freesoftware/algorithm/two_pointer_technique.md)
   * [Linear Search Technique](freesoftware/algorithm/linear_search_technique.md)
   * [Binary Search Technique](freesoftware/algorithm/binary_search_technique.md)
-  * [In place](freesoftware/algorithm/in_place.md)
+  * [In Place Technique](freesoftware/algorithm/in_place_technique.md)
+  * [Prefix Sum Technique](freesoftware/algorithm/prefix_sum_technique.md)
 
 
 ## 🛤 AI techniques
