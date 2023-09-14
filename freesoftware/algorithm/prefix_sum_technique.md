@@ -5,7 +5,11 @@ A prefix sum technique is a method for calculating the sum of a list of numbers.
 
 ## Prefix Sum
 
-A prefix sum is a sequence of partial sums of a given sequence.
+A prefix sum is a sequence of partial sums of a given sequence. It can be calculated in sequential models of computation using the formula:
+
+$$yi=yi-l+xi$$
+
+to each output value in sequence order.
 
 ### Using accumulate
 
@@ -24,6 +28,19 @@ nums=[1,2,3,4,5]
 prefix_sum = [sum(nums[:i+1]) for i in range(len(nums))]
 print(prefix_sum)
 ```
+
+### In Rust
+
+```Rust
+fn main(){
+    let nums = vec![1,2,3,4,5];
+    // The scan() method applies a closure to each element of the iterator and returns an iterator over the results.
+    let prefix_sum: Vec<i32> = nums.iter().scan(0,|sum, &x| {
+        *sum += x;
+        Some(*sum)
+    }).collect();
+    println!("{:?}",prefix_sum);
+}
 
 
 ## Questions
