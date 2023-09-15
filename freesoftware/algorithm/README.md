@@ -20,3 +20,25 @@ I believe this is the reason I failed to solve the same problems in the past.
 ### The improvement of solving the algorithm problems
 
 We should know the what technique we have used to solve the problems. For example, if we are working on solving find specific element on a Array. Most of time, "we use linear search technique(algorithm)" keep it in mind rather than we use `for` here to traverse all the elements. This is the key point to improve the efficiency of solving the algorithm problems.
+
+
+### Know clearly of the edge cases
+
+This is really helpful while you are trying solve the problems. There are many examples like:
+
+```Python
+range(1,4)
+range(5,1,-1)
+```
+
+```Rust
+for i in (0..n){
+
+}
+
+for i in (0..n-1).rev(){}
+
+for i in (0..=n).rev(){}
+```
+
+It is really helpful to know these programming skills clearly. What the different between them and how to use them to solve the problems.
