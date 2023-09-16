@@ -41,7 +41,7 @@ fn main(){
     }).collect();
     println!("{:?}",prefix_sum);
 }
-
+```
 
 ## Questions
 
