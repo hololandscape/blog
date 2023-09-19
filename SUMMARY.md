@@ -28,6 +28,7 @@
   * [Prefix Sum Technique](freesoftware/algorithm/prefix_sum_technique.md)
   * [N D Array](freesoftware/algorithm/nD_array.md)
   * [Sliding Window Technique](freesoftware/algorithm/sliding_window_technique.md)
+  * [Juggling Technique](freesoftware/algorithm/juggling_technique.md)
 
 
 
