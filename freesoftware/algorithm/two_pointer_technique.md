@@ -1,6 +1,11 @@
 # Two-pointer Technique
 
-It is one of the main techniques used for `in-place` Array algorithms. We can use it to iterate over the Array in two different places at the same time. And it is also used in the [Sliding Window technique](./sliding_window_technique.md)
+It is one of the main techniques used for `in-place` Array algorithms. We can use it to iterate over the Array in two different places at the same time. 
+
+And it is also used in the 
+
+* Slow and Fast pointer technique
+* [Sliding Window technique](./sliding_window_technique.md)
 
 ## Example
 
