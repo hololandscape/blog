@@ -23,3 +23,5 @@ def sliding_window(s):
 ## Sliding Window Technique Problems
 
 [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)
+[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+[Remove Element](https://leetcode.com/problems/remove-element/)
