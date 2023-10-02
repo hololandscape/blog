@@ -40,6 +40,8 @@ class LinkedList:
         curr = self.head
         for _ in range(index):
             curr=curr.next
+        if curr is None:
+            return -1
         return curr.val
     
     def addAtHead(self, val: int) -> None:
@@ -56,7 +58,7 @@ class LinkedList:
             curr.next=Node(val)
         self.size += 1
     
-    def AddAtIndex(self, index: int, val: int) -> None:
+    def addAtIndex(self, index: int, val: int) -> None:
         if index<0 or index>self.size:
             return
         if index==0:
@@ -104,6 +106,8 @@ class LinkedList:
         curr = self.head
         for _ in range(index):
             curr=curr.next
+        if curr is None:
+            return -1
         return curr.val
     
     def addAtHead(self, val: int) -> None:
@@ -183,6 +187,8 @@ class LinkedList:
         curr = self.head
         for _ in range(index):
             curr=curr.next
+        if curr is None:
+            return -1
         return curr.val
     
     def addAtHead(self, val: int) -> None:
