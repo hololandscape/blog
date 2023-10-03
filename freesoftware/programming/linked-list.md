@@ -83,6 +83,110 @@ class LinkedList:
         self.size -= 1
 ```
 
+The Singly Linked List in Rust
+
+> Box: A smart pointer type for heap allocation. 
+> Option is a type that represents an optional value: every Option is either Some and contains a value, or None, and does not.
+
+```rust
+struct Node {
+    val: i32,
+    next: Option<Box<Node>>,
+}
+
+impl Node {
+    fn new(val: i32) -> Self {
+        Node {val: i32, next: None}
+    }
+}
+
+struct MyLinkedList {
+    head: Option<Box<Node>>,
+    size: i32,
+}
+
+impl MyLinkedList {
+    fn new() -> Self{
+        MyLinkedList {head: None, size: 0}
+    }
+
+    fn get(&self, index: i32) -> i32 {
+        if index<0 || index>=self.size{
+            return -1;
+        }
+        let mut curr = &self.head;
+        let mut i =0;
+        while let Some(node) = curr{
+            if i ==index{
+                return node.val;
+            }
+            i+=1;
+            curr = &node.next;
+        }
+        -1
+    }
+
+    fn add_at_head(&mut self, val: i32){
+        let mut node = Node::new(val);
+        node.next = self.head.take();
+        self.head=Some(node);
+        self.size+=1;
+    }
+
+    fn add_at_tail(&mut self, val: i32){
+        let node=Box::new(Node::new(val));
+        let mut curr = &mut self.head;
+        while let Some(node)=curr{
+            curr=&mut node.next;
+        }
+        *curr=Some(node);
+        self.size+=1;
+    }
+
+    fn add_at_index(&mut self, inex: i32, val:i32){
+        if index<0 || index>self.size{
+            return;
+        }
+        if index==0{
+            self.ad_at_head(val);
+            return;
+        }
+        let mut curr = &mut self.head;
+        let mut i = 0;
+        while let Some(node) ==curr{
+            if i==index-1{
+                let mut new_node = Node::new(val);
+                new_node.next=node.next.take();
+                node.next=Some(new_node);
+                self.size+=1;
+            }
+            i+=1;
+            curr=&mut node.next
+        }
+    }
+
+    fn delete_at_index(&mut self, index: i32){
+        if index<0 || index>=self.size{
+            return;
+        }
+        if index==0{
+            self.head=self.head.take().unwrap().next();
+            self.size-=1;
+            return;
+        }
+        let mut curr = &mut self.head;
+        let mut i = 0;
+        while let Some(node)==curr{
+            if i==index-1{
+                curr.next=curr.next.take().unwrap().next:
+                self.size-=1;
+            }
+            i+=1;
+            curr=&mut node.next;
+        }
+    }
+}
+```
 
 ### Design a Linked List with head, tail and size attributes
 
