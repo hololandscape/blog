@@ -96,7 +96,7 @@ struct Node {
 
 impl Node {
     fn new(val: i32) -> Self {
-        Node {val: i32, next: None}
+        Node {val, next: None}
     }
 }
 
@@ -127,7 +127,7 @@ impl MyLinkedList {
     }
 
     fn add_at_head(&mut self, val: i32){
-        let mut node = Node::new(val);
+        let mut node =Box::new(Node::new(val));
         node.next = self.head.take();
         self.head=Some(node);
         self.size+=1;
@@ -153,9 +153,9 @@ impl MyLinkedList {
         }
         let mut curr = &mut self.head;
         let mut i = 0;
-        while let Some(node) ==curr{
+        while let Some(node) =curr{
             if i==index-1{
-                let mut new_node = Node::new(val);
+                let mut new_node = Box::new(Node::new(val));
                 new_node.next=node.next.take();
                 node.next=Some(new_node);
                 self.size+=1;
@@ -170,16 +170,17 @@ impl MyLinkedList {
             return;
         }
         if index==0{
-            self.head=self.head.take().unwrap().next();
+            self.head=self.head.take().unwrap().next.take();
             self.size-=1;
             return;
         }
         let mut curr = &mut self.head;
         let mut i = 0;
-        while let Some(node)==curr{
+        while let Some(node)=curr{
             if i==index-1{
-                curr.next=curr.next.take().unwrap().next:
+                node.next=node.next.take().unwrap().next;
                 self.size-=1;
+                return;
             }
             i+=1;
             curr=&mut node.next;
