@@ -88,6 +88,7 @@
   * [🥞 Type for NNC](ai-techniques/large-language-model/type-for-nnc.md)
   * [🥞 Token](ai-techniques/large-language-model/token.md)
   * [🤼‍♂️ Doc Retrieval && QA with LLMs](ai-techniques/large-language-model/doc_retrieval_and_QA_LLMs.md)
+  * [Hallucination(AI)](ai-techniques/large-language-model/hallucination.md)
 * [🐹 diffusers](ai-techniques/diffusers/README.md)
   * [💪 Deconstruct the Stable Diffusion pipeline](ai-techniques/diffusers/deconstruct_sd_pipeline.md)
 
