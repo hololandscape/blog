@@ -4,7 +4,7 @@ It is one of the main techniques used for `in-place` Array algorithms. We can us
 
 And it is also used in the 
 
-* Slow and Fast pointer technique
+* [Slow and Fast pointer technique](./cycle_detect_technique.md)
 * [Sliding Window technique](./sliding_window_technique.md)
 
 ## Example
