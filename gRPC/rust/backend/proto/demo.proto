@@ -1,0 +1,18 @@
+syntax = "proto3";
+package demo;
+
+// Define the service
+service Demo{
+    rpc SayHello(HelloRequest) returns (HelloResponse);
+}
+
+// Define the request message
+message HelloRequest{
+    // Request mesage contains the name
+    string name = 1;
+}
+
+message HelloResponse{
+    // Response message
+    string message = 1;
+}
