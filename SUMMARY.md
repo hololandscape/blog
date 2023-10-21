@@ -20,7 +20,7 @@
   * [✏️ Introduction to programming](freesoftware/programming/introduction-to-6811-programming.md)
   * [- Mutable Value Semantics](freesoftware/programming/mutable_value_semantics.md)
   * [📖 Linked List](freesoftware/programming/linked-list.md)
-  * [Rust](freespftware/programming/rust/README.md)
+  * [Rust](freesoftware/programming/rust/README.md)
     * [📖 Keyword dyn](freesoftware/programming/rust/keyword_dyn.md)
 * [🎹 Algorithm](freesoftware/algorithm/README.md)
   * [Two-pointer Technique](freesoftware/algorithm/two_pointer_technique.md)
