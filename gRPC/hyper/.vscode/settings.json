@@ -1,0 +1,34 @@
+{
+    "editor.inlayHints.enabled": "on",
+    "editor.inlayHints.fontFamily": "Courier New",
+    "editor.inlayHints.fontSize": 11,
+
+    "editor.semanticHighlighting.enabled": "configuredByTheme",
+
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.mutable":{
+                "fontStyle": "",
+            },
+            "genericType": {
+                "foreground": "#ff0000",
+                "fontStyle": "bold"
+            },
+            "parameter":{
+                "foreground": "#ff0000",
+                "fontStyle": "bold"
+            },
+            "type": {
+                "foreground": "#ab1844",
+                "fontStyle": "bold"
+            },
+            "operator.unsafe": "#ff6600",
+            "function.unsafe": "#ff6600",
+            "method.unsafe": "#ff6600"
+        }
+    },
+    "rust-analyzer.linkedProjects": [
+        "./base/Cargo.toml"
+    ],
+}

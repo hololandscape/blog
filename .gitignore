@@ -14,4 +14,6 @@ _book
 *.epub
 *.mobi
 *.pdf
-gRPC/rust/target/
+*target
+*.idea
+*.vscode
