@@ -49,6 +49,7 @@
 * [🗄️ framework](ai-techniques/framework/README.md)
   * [🧷 pytorch](ai-techniques/framework/pytorch.md)
   * [📓 Time components](ai-techniques/framework/ml_training_components.md)
+  * [📓 burn](ai-techniques/framework/burn/README.md)
 * [🍡 Adaptation](ai-techniques/adaptation/README.md)
   * [🎁 LoRA](ai-techniques/adaptation/lora/README.md)
     * [ℹ Matrix Factorization](ai-techniques/adaptation/lora/matrix-factorization.md)
