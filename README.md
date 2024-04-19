@@ -19,7 +19,7 @@ I join the [GNU Hurd](https://savannah.gnu.org/projects/hurd/) in 2021, I’d li
 
 In 2023, I jump into the [go-Skynet organization](https://github.com/go-skynet) which is focused on running the AI model in consumer level hardware. It is so super cool and the binding technique between two different languages is useful. And the project [LocalAI](https://github.com/mudler/LocalAI) is super cool.
 
-In the beginning of 2024, I found a new open source community [SkywardAI](https://github.com/SkywardAI) with a group of passionate students from RMIT University, and some of contributors are my former colleagues. It is a community inspired by [LocalAI](https://github.com/mudler/LocalAI) which we want to provide the free, real open-source RAG framework and data analysis solutions that enable anyone to democratize and run AI on consumer-grade hardware.
+In the beginning of 2024, I create a new open source community [SkywardAI](https://github.com/SkywardAI) with a group of passionate students from RMIT University, and some of contributors are my former colleagues. It is a community inspired by [LocalAI](https://github.com/mudler/LocalAI) which we want to provide the free, real open-source RAG framework and data analysis solutions that enable anyone to democratize and run AI on consumer-grade hardware.
 
 I’m a Sky photographer on [Flickr](https://flickr.com/people/aisukoli/) and all the photos are free to download.
 
