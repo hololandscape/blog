@@ -19,7 +19,9 @@ I join the [GNU Hurd](https://savannah.gnu.org/projects/hurd/) in 2021, I’d li
 
 In 2023, I jump into the [go-Skynet organization](https://github.com/go-skynet) which is focused on running the AI model in consumer level hardware. It is so super cool and the binding technique between two different languages is useful. And the project [LocalAI](https://github.com/mudler/LocalAI) is super cool.
 
-In the beginning of 2024, I create a new open source community [SkywardAI](https://github.com/SkywardAI) with a group of passionate students from RMIT University, and some of contributors are my former colleagues. It is a community inspired by [LocalAI](https://github.com/mudler/LocalAI) which we want to provide the free, real open-source RAG framework and data analysis solutions that enable anyone to democratize and run AI on consumer-grade hardware.
+In the beginning of 2024, I was a casual researcher at RMIT. I founded an open source community [SkywardAI](https://github.com/SkywardAI) with a group of passionate students from RMIT University, along with some former colleagues. Inspired by [LocalAI](https://github.com/mudler/LocalAI), our goal is to provide a free, truly open-source RAG framework and data analysis solutions, enabling anyone to democratize and run AI on consumer-grade hardware.
+
+By the end of 2024, I joined the RMIT Race Hub and continued working on this topic. Additionally, I'm working on founding a company focused on AI services and an education platform for businesses.
 
 I’m a Sky photographer on [Flickr](https://flickr.com/people/aisukoli/) and all the photos are free to download.
 
@@ -27,8 +29,4 @@ Maintainer [CNCF](https://community.cncf.io/u/mbkrge/#/about), [Savannah](https:
 GPG Key: C52F AB76 4ECD 339F F038 1836 1F47 7E40 A672 B460\
 [gnu.org](https://gnu.org/) | [meshery.io](https://meshery.io/) | [skywardai](https://github.com/SkywardAI)
 
-<div align="left">
-
-<img src="https://hololandscape.github.io/aisuko/assets/images/5569169.png" alt="fsf member">
-
-</div>
+<div align="left"><img src="https://hololandscape.github.io/aisuko/assets/images/5569169.png" alt="fsf member"></div>
