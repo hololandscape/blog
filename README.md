@@ -19,9 +19,9 @@ I join the [GNU Hurd](https://savannah.gnu.org/projects/hurd/) in 2021, I’d li
 
 In 2023, I jump into the [go-Skynet organization](https://github.com/go-skynet) which is focused on running the AI model in consumer level hardware. It is so super cool and the binding technique between two different languages is useful. And the project [LocalAI](https://github.com/mudler/LocalAI) is super cool.
 
-In the beginning of 2024, I was a casual researcher at RMIT. I founded an open source community [SkywardAI](https://github.com/SkywardAI) with a group of passionate students from RMIT University, along with some former colleagues. Inspired by [LocalAI](https://github.com/mudler/LocalAI), our goal is to provide a free, truly open-source RAG framework and data analysis solutions, enabling anyone to democratize and run AI on consumer-grade hardware.
+In the beginning of 2024, I was a casual researcher at [RMIT](https://www.rmit.edu.au/). I founded an open source community [SkywardAI](https://github.com/SkywardAI) with a group of passionate students from RMIT University, along with some former colleagues. Inspired by [LocalAI](https://github.com/mudler/LocalAI), our goal is to provide a free, truly open-source RAG framework and data analysis solutions, enabling anyone to democratize and run AI on consumer-grade hardware.
 
-By the end of 2024, I joined the RMIT Race Hub and continued working on this topic. Additionally, I'm working on founding a company focused on AI services and an education platform for businesses.
+By the end of 2024, I graduated from RMIT with a [**Master of Information Technology with Distinction**](https://www.rmit.edu.au/study-with-us/levels-of-study/postgraduate-study/masters-by-coursework/master-of-information-technology-mc208). I joined the[ **RMIT Race Hub**](https://www.rmit.edu.au/partner/hubs/race) and continued working on this topic. Additionally, I am working on founding a company focused on AI services and an education platform for businesses.
 
 I’m a Sky photographer on [Flickr](https://flickr.com/people/aisukoli/) and all the photos are free to download.
 
